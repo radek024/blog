@@ -1,0 +1,40 @@
+---
+layout: default
+title: Kategorie
+description:
+  W tym miejscu umieszczone są wszystkie użyte dotąd kategorie aby ułatwić czytanie konkretnych treści.
+---
+<article class="content">
+  <h2 class="visuallyhidden">{{page.title}}</h2>
+    <div class="container">
+{% assign categories_list = site.categories %}
+<div class="categories-list">
+  {% if categories_list.first[0] == null %}
+    {% for category in categories_list %}
+      <a href="#{{ category }}" class="category-name">{{ category }}</a>
+    {% endfor %}
+  {% else %}
+    {% for category in categories_list %}
+      <a href="#{{ category[0] }}" class="category-name">{{ category[0] }}</a>
+    {% endfor %}
+  {% endif %}
+</div>
+{% assign categories_list = nil %}
+
+{% for tag in site.categories %}
+  <h3 id="{{ tag[0] }}" class="category-title">{{ tag[0] }}</h3>
+  <ul>
+    {% assign pages_list = tag[1] %}
+    {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </ul>
+{% endfor %}
+</div>
+</article>

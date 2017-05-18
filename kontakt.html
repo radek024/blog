@@ -1,0 +1,28 @@
+---
+layout: default
+title: Kontakt
+description:
+  Poprzez formularz dostępny poniżej możesz wysłać mi wiadomość. Masz jakieś uwagi, pytania albo zagadnienia, które chcesz, abym poruszył? Daj znać! :) Postaram się odpisać jak najszybciej.
+---
+<article class="content">
+    <h2 class="visuallyhidden">{{page.title}}</h2>
+    <div class="container">
+      <form method="POST" action="http://formspree.io/radek002x@gmail.com" class="form">
+        <div>
+          <label for="imie">Imię:</label>
+         <input type="text" class="form-input" name="imie" placeholder="Wpisz swoje imię" required  autofocus id="imie">
+        </div>
+        <div>
+          <label for="email">Mail:</label>
+          <input type="email" class="form-input" name="email" placeholder="Wpisz swój email" required  id="email">
+        </div>
+        <div>
+          <label for="wiadomosc">Wiadomość:</label>
+          <textarea class="form-message" name="wiadomosc" placeholder="Wpisz swoją wiadomość..." required  id="wiadomosc"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="form-button">Wyślij</button>
+        </div>
+      </form>
+    </div>
+</article>
