@@ -1,9 +1,0 @@
-<header class="welcome-heading">
-  <div class="container">
-    <img src="{{site.baseurl}}/img/{%if page.url contains 'wpisy' %}posts.png{%elsif page.url contains '20' %}article.png{%elsif page.url contains 'kategorie' or page.url contains 'kontakt'%}categories.png{%else%}author.jpg{%endif%}" class="deco-img" alt="">
-    <div>
-      {% if page.title.size>0 %}<span class="welcome-title">{{page.title}}</span><h1 class="visuallyhidden">{{site.title}}</h1>{% else %} <h1 class="welcome-title">{{site.title}}</h1>{%endif%}
-      <p class="welcome-expand">{% if page.description.size>0 %}{{page.description}}{% elsif page.url contains "20" %}{% else %}{{site.description}}{%endif%}</p>
-    </div>
-  </div>
-</header>
