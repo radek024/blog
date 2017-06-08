@@ -1,0 +1,14 @@
+<nav class="page-navigation">
+  <div class="container">
+    <h2 class="blog-title"><a href="{{site.baseurl}}/" class="nav-link">{{ site.title }}</a><span class="visuallyhidden"> - nawigacja</span></h2>
+    <button type="button" class="hamburger-menu">
+     MENU
+    </button>
+    <ul class="nav-list">
+      <li class="nav-item {%if page.url=='/wpisy/'%}active{%endif%}"><a href="{{site.baseurl}}/wpisy" class="nav-link">Wpisy</a></li>
+      <li class="nav-item {%if page.url=='/kategorie/'%}active{%endif%}"><a href="{{site.baseurl}}/kategorie" class="nav-link">Kategorie</a></li>
+      <li class="nav-item {%if page.url=='/omnie'%}active{%endif%}"><a href="http://radek024.github.io/" class="nav-link">O mnie</a></li>
+      <li class="nav-item {%if page.url=='/kontakt/'%}active{%endif%}"><a href="{{site.baseurl}}/kontakt" class="nav-link">Kontakt</a></li>
+    </ul>
+  </div>
+</nav>

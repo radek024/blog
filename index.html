@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h2 class="visuallyhidden">Ostatnie treści</h2>
+{% for news in site.posts %}
+<article class="content">
+    <div class="container">
+      <header class="content-heading">
+        <a href="{{site.baseurl}}{{news.url}}" class="content-url" title="{{news.title}}"><h3 class="content-title">{{news.title}}</h3></a>
+      </header>
+      <p class="meta">
+        - {{news.author}} - <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time> - {{news.categories | join }} -
+      </p>
+      <p class="text">{{news.excerpt}}
+        <a href="{{site.baseurl}}{{news.url}}" class="read-more" title="Czytaj dalej...">Czytaj dalej...</a>
+      </p>
+    </div>
+</article>
+{% endfor %}
