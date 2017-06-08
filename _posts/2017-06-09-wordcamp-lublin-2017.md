@@ -23,7 +23,7 @@ Wydarzenie było podzielone na trzy drogi: dla wszystkich, dla programistów ora
 
 ### Przebieg wydarzenia
 
-Konferecję rozpoczęła prelekcja zatytułowana __*Nie pytaj, co WordPress może zrobić dla Ciebie, zapytaj co Ty możesz zrobić dla WordPressa!*__ poprowadzana przez Magdalenę Paciorek oraz Jakuba Milczarka. Przez 45 minut mogliśmy dowiedzieć się, w jaki sposób jesteśmy w stanie wzbogacić WordPressa poprzez nasze zaangażowanie. Warto tutaj wspomnieć o lokalnych wydarzeniach zrzeszających społecznosć WordPressa, to jest **WordUpy**. Co jakiś czas w kilku miastach w Polsce są organizowane spotkania takich społeczności, więc warto obserwować lokalne wydarzenia. Zostały również podane statystyki z Contribute Day.
+Konferecję rozpoczęła prelekcja zatytułowana __*Nie pytaj, co WordPress może zrobić dla Ciebie, zapytaj co Ty możesz zrobić dla WordPressa!*__ poprowadzana przez Magdalenę Paciorek oraz Jakuba Milczarka. W trakcie 45 minut mogliśmy dowiedzieć się, w jaki sposób jesteśmy w stanie wzbogacić WordPressa poprzez nasze zaangażowanie. Warto tutaj wspomnieć o lokalnych wydarzeniach zrzeszających społecznosć WordPressa, to jest **WordUpy**. Co jakiś czas w kilku miastach w Polsce są organizowane spotkania takich społeczności, więc warto obserwować lokalne wydarzenia. Zostały również podane statystyki z Contribute Day.
 
 ![Obrazek przedstawia pierwszą prelekcję]({{site.baseurl}}/img/post-img/2017-06-09/fot01.jpg)
 
@@ -48,7 +48,7 @@ Moją wisienką na torcie był wykład __*Opytamlizacja pracy front-end develope
 
 ### Z punktu widzenia wolontariusza
 
-Przed zgłoszeniem się na wolontariusza miałem pewne wątpliwości. Całość z mojej strony była nieco hardkorowa: w sobotę okupowałem stację główną PKP Lublin już od szóstej, a odjeżdzałem dopiero o godzinie ~21, niedziela zapowiadała się tak samo. Brałem już raz udział w organizowaniu konferecji, odpowiadałem wtedy za kwestie techniczne - nie była ona jednak aż tak duża, więc czułem się niepewnie zapisując się do tego wydarzenia. Patrząc na to kilka dni po wydarzeniu - nie żałuję. Poznałem wiele ciekawych osób oraz miałem okazję wysłuchać stanowiska innych osób w branży. Jeżeli będę miał okazję uczestniczyć w Wordcampie za rok, z pewnością będę tam również jako wolontariusz. Lubię tworzyć dla ludzi (chociażby ten projekt jest tego przykładem), a wydarzenia typu Wordcamp zrzeszają takie osoby. [Organizatorzy](https://2017.lublin.wordcamp.org/organizatorzy/) byli niezawodni, więc wielkie brawa dla nich! :)
+Przed zgłoszeniem się na wolontariusza miałem pewne wątpliwości. Całość z mojej strony była nieco hardkorowa: w sobotę okupowałem stację główną PKP Lublin już od szóstej, a odjeżdżałem dopiero o godzinie ~21, niedziela zapowiadała się tak samo. Brałem już raz udział w organizowaniu konferecji, odpowiadałem wtedy za kwestie techniczne - nie była ona jednak aż tak duża, więc czułem się niepewnie zapisując się do tego wydarzenia. Patrząc na to kilka dni po wydarzeniu - nie żałuję. Poznałem wiele ciekawych osób oraz miałem okazję wysłuchać stanowiska innych osób w branży. Jeżeli będę miał okazję uczestniczyć w Wordcampie za rok, z pewnością będę tam również jako wolontariusz. Lubię tworzyć dla ludzi (chociażby ten projekt jest tego przykładem), a wydarzenia typu Wordcamp zrzeszają takie osoby. [Organizatorzy](https://2017.lublin.wordcamp.org/organizatorzy/) byli niezawodni, więc wielkie brawa dla nich! :)
 
 ![Zespół odpowiedzialny za wydarzenie]({{site.baseurl}}/img/post-img/2017-06-09/fot06.jpg)
 
