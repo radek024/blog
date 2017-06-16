@@ -20,6 +20,10 @@ a:focus, a:hover{
   outline: 2px solid #FFA726;
 }
 
+a.nav-link:active {
+    background-color: #FFA726;
+}
+
 body:not(.main-page) .content a{
   color: #0aa290;
 }
@@ -267,6 +271,7 @@ blockquote::after{
 
 .post h3{
   font-size: 1.6em;
+  line-height: 1.4em;
   margin: 0;
   padding-top: 70px;
   text-transform: uppercase;
