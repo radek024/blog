@@ -33,6 +33,7 @@ Na tym etapie dokument nie różni się za wiele od strony internetowej. I w sum
 - za pomocą znacznika `b`,
 - za pomocą znacznika `strong`,
 - za pomocą atrybutu `font-weight` w CSS.
+
 W dokumencie pogrubienie traktowałbym jako użycie atrybutu `font-weight`, wszak zmieniamy tylko kontur liter. Z drugiej strony pogrubienie nie jest używane ot tak o - często podkreśla ono coś, co autor pragnie przekazać ponad inne treści. Dobrze widoczna jest tutaj niedoskonałość dokumentów. Są one nieco płytsze od stron WWW, przez co łatwiej jest nauczyć się odpowiednio tworzyć dokumenty aniżeli witryny.
 Jeżeli zależy nam na odbiorcy, chcemy aby tekst czytało się lekko oraz szybko. Z tego powodu dobór odpowiednich komponentów jest bardzo ważny; przy stronach nie jest inaczej. Dochodzi kwestia *responsive web design* - czyli konieczność myślenia dobrego prezentowania treści w różnych rozdzielczościach oraz ułożenie dokumentu, gdzie w plikach tekstowych często wykorzystujemy nic innego jak... **tabele**. I w sumie tabele jako możliwość ułożenia elementów to nic złego w pliku tekstowym (osobiście nie mam nic przeciwko temu), tak przy stronach jest to stanowczo zła praktyka, ponieważ łamie zasady semantyki. W plikach tekstowych często spotykam się z tabelami jako szansą na ciekawsze zaprojektowanie dokumentu - stąd interpretacja tabeli pod względem estetycznym.
 
