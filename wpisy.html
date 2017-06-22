@@ -12,7 +12,7 @@ sitemap:
 <article class="content">
   <h2 class="visuallyhidden">{{page.title}}</h2>
     <div class="container">
-      <ol>
+      <ol reversed>
         {% for news in site.posts %}
           <li><a href="{{site.baseurl}}{{news.url}}" title="{{news.title}}">{{ news.title }}</a> - <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time></li>
         {% endfor %}
