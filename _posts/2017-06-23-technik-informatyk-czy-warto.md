@@ -2,7 +2,7 @@
 layout: post
 title: Technikum informatyczne - czy warto?
 author: Radek
-categories: html css strony-www
+categories: offtop
 excerpt: Wybór odpowiedniej szkoły średniej to trudny wybór. Może technikum informatyczne?
 comments: true
 img-thumb: 2017-06-23.png
