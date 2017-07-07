@@ -57,6 +57,7 @@ code{
   background: #555555;
   border-radius: 4px;
   color: #FFF;
+  white-space: pre-line;
 }
 
 blockquote{
