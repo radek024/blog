@@ -87,7 +87,7 @@ Jak widać, wszystko jest na swoim miejscu. Taka forma przedstawiania wpisu jest
 
 Tutaj mamy dwa wyjścia. Możemy ustawić te treści sztywno, albo można również nieco skonfigurować to, co tworzymy. Posłuże się tutaj Jekyllem oraz Wordpressem. W Jekyllu, na tej stronie obrazki, opis oraz tytuł artykułu ustawiam poprzez YAML:
 
-```YAML
+```
 ---
 title: Ten tytuł to nie przypadek - Open Graph Protocols
 excerpt: Ten opis to również nie przypadek, jak to zrobić?
