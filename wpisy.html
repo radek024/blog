@@ -17,5 +17,6 @@ sitemap:
           <li><a href="{{site.baseurl}}{{news.url}}" title="{{news.title}}">{{ news.title }}</a> - <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time></li>
         {% endfor %}
       </ol>
+      {% include book.html %}
     </div>
 </article>

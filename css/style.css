@@ -33,7 +33,7 @@ body:not(.main-page) .content a:visited{
 }
 
 div[class^="language"]{
-  white-space: pre;
+  white-space: pre-line;
   font-size: 0.75em;
   line-height: 23px;
   font-family: monospace;
@@ -54,7 +54,7 @@ div[class^="language"] pre{
 
 code{
   padding: 4px;
-  background: #0277BD;
+  background: #555555;
   border-radius: 4px;
   color: #FFF;
 }
@@ -315,6 +315,34 @@ blockquote::after{
 
 }
 
+.table-content{
+  position: relative;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.table-content h3{
+  font: normal 700 1.2em/1.2 "Open Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.table-content h3::before{
+  content: unset;
+
+}
+
+.table-content .content-list{
+  margin: 10px 0 0 ;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.table-content li::first-letter{
+  text-transform: capitalize;
+}
 .contact-page .form{
   max-width: 480px;
   margin: 0 auto;
@@ -391,6 +419,7 @@ blockquote::after{
   padding-top: 40px;
   text-transform: uppercase;
   overflow: hidden;
+  width: 100%;
 }
 .content-heading .content-title::after{
   display: block;
@@ -420,13 +449,13 @@ blockquote::after{
 }
 
 .container hr{
+
   height: 0;
-  width: 50%;
-  margin: 40px auto 20px;
- border-bottom: 3px solid #CFD8DC;
+  margin: 40px auto 40px;
+  border-bottom: 5px solid #003459;
 }
 
-.terms-list{
+dl{
   padding: 15px;
   max-width: 600px;
   width: 100%;
@@ -434,13 +463,13 @@ blockquote::after{
   box-sizing: border-box;
 }
 
-.terms-list .term-title{
+dl dt{
   font-size: 21px;
   text-align: right;
   border-bottom: 1px solid #ccc;
 }
 
-.terms-list .term-description{
+dl dd{
   text-indent: 20px;
   font-size: 16px;
   font-style: italic;
@@ -476,6 +505,58 @@ blockquote::after{
 
 .category-title ~ ul{
   margin-top: 5px;
+}
+
+.book{
+  position: relative;
+  background-image: url("../img/code.png");
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+.book::before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(77,34,101,0.5);
+}
+
+.book img{
+ flex-basis: 25%;
+}
+.book .about{
+  padding: 15px;
+  flex-basis: 100%;
+}
+
+.book h3{
+  font-size: 1.2em;
+  color: #FFF;
+  padding-top: 0;
+  text-transform: none;
+}
+
+.book h3::before{
+  content: unset;
+}
+
+.book p{
+  color: #FFF;
+}
+
+body .content .book a{
+  color: #FFDA59;
+}
+body .content .book a:visited{
+  color: #FFA726;
 }
 
 .footer{
@@ -654,6 +735,14 @@ blockquote::after{
 
   .meta{
     font-size: 14px;
+  }
+
+  .book{
+    flex-direction: column;
+  }
+
+  .post .content .book img{
+    width: unset;
   }
 
   .welcome-heading .container .deco-img{

@@ -7,10 +7,15 @@ layout: default
       {% if page.img-thumb.size>0 %}
       <img src="{{site.baseurl}}/img/post-thumb/{{page.img-thumb}}" class="thumb-img" alt="">
       {% endif %}
+      <section class="table-content">
+        <h3>Spis treści</h3>
+        <p>Ten wpis nie posiada podtytułów. Twoja przeglądarka może również nie obsługiwać JavaScript.</p>
+      </section>
           {{content}}
       <p class="meta">
             - {{page.author}} - <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> - {{page.categories | join }} -
       </p>
+      {% include book.html %}
       {% include comments.html %}
     </div>
   </article>
