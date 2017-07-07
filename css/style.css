@@ -33,7 +33,7 @@ body:not(.main-page) .content a:visited{
 }
 
 div[class^="language"]{
-  white-space: pre-line;
+  white-space: pre;
   font-size: 0.75em;
   line-height: 23px;
   font-family: monospace;
