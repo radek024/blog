@@ -84,7 +84,7 @@ Tak oto przystosowaliśmy nasz artykuł pod względem social-media. Sprawdźmy z
 Co poszło nie tak? No cóż: zdarza się, że nasze dodatkowe dane nie są wzięte pod uwagę. Szczególnie, jeżeli udostępniamy już kiedyś udostępniony wpis. Skutkuje to pobraniem starych wartości. Należy się ich pozbyć. Robimy to za pomocą [Sharing Debugger
 ![]](https://developers.facebook.com/tools/debug/sharing/). Jest to narzędzie pozwalające aktualizować treści pobierane z witryny. Na stronie wklejamy adres strony a następnie klikamy napis **Scrape Again**, co pozwoli zaktualizować informacje. Czasami należy zrobić to dwa razy - dla pewności że wszystko będzie w porządku.
 
-![]({{site.baseurl}}/img/post-img/2017-07-07/fot02.png)
+![]({{site.baseurl}}/img/post-img/2017-07-07/fot03.png)
 
 Jak widać, wszystko jest na swoim miejscu. Taka forma przedstawiania wpisu jest nie dość że ciekawsza, to i również schludniejsza, co również ma pozytywny wpływ na odbiór strony przez potencjalnych odwiedzających.
 
