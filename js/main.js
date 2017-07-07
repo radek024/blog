@@ -25,4 +25,4 @@ window.addEventListener("load", function(){
   table.appendChild(listItem);
   tabContent.appendChild(table);
   }
-  }, false)
+}, false);
