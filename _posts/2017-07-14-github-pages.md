@@ -3,7 +3,7 @@ layout: post
 title: Github Pages dla zielonych
 author: Radek
 categories: strony-www
-excerpt:
+excerpt: Czasami nasze projekty są zbyt duże, aby móc je wrzucić na codepen czy też inny tego typu portal. Wtedy pojawia się dylemat; jak wysłać do sieci nasze dzieło?
 comments: true
 img-thumb: 2017-07-14.png
 ---
