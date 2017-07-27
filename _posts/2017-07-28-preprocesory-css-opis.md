@@ -5,7 +5,7 @@ author: Radek
 categories: css strony-www
 excerpt: Czyli krótki opis funkcji, które usprawnią stylizowanie stron.
 comments: true
-img-thumb: 2017-07-27.png
+img-thumb: 2017-07-28.png
 ---
 
 Tworząc strony WWW po pewnym czasie jesteśmy w stanie tworzyć je w bardzo szybki sposób. Jest to proces w dużej mierze powtarzalny, ponieważ za każdym projektem strony stoi to samo, czyli:
