@@ -19,8 +19,7 @@ Mowa o **Open Graph Protocol**. Jest to zbiór określonych reguł dla znacznika
 Jak już wspomniałem, wygląd strony w mediach społecznościowych możemy określić za pomocą znacznika `meta`, który znajduje się w `head`, tak jak pozostałe znaczniki tego typu. Na początku podam wzór ogólny:
 
 ```html
-<meta property="og:wlasciwosc" content="wartosc" />
-```
+<meta property="og:wlasciwosc" content="wartosc" />```
 
 W taki sposób tworzymy znaczniki. Właściwości do wykorzystania jest bardzo dużo, ale ze względu na popularność Facebooka skupimy się wyłącznie na nim. Nie oznacza to jednak, że możemy ignorować inne portale. Po prostu schemat często się powtarza i bezsensownym jest tłumaczeniem tego samego dwadzieścia razy. Przy projektowaniu treści pod OGP (skrót od Open Graph Protocol) należy pamiętać o kliencie docelowym. Przykładem tego może być Twitter. Jest to powszechne narzędzie do komunikacji używane przez polityków. Jeżeli zatem projektujemy stronę z naciskiem na treści tego typu, należy mieć na uwadze wygląd treści na tym portalu społecznościowym.
 
@@ -48,8 +47,7 @@ Aby nie było wyłącznie suchej teorii weźmy pod uwagę przykład: niech będz
 Doskonale komponuje się on w treść artykułu. Obrazek przedstawia pęd, a z tym wiąże się nasz artykuł. Dodatkowo portal skupia się na kolei, dzięki czemu dodatkowo nawiązujemy do tematyki strony. Jak będzie w takim razie wyglądał zapis?
 
 ```html
-<meta property="og:image" content="train.jpeg" />
-```
+<meta property="og:image" content="train.jpeg" />```
 
 W taki sposób zapewniliśmy dobrą grafikę w razie udostępnienia wpisu. Ale nie kończymy na tym; to byłoby zbyt łatwe. Tytuł również należy skomponować.
 
@@ -57,23 +55,20 @@ Porównanie średniego czasu dotarcia z miasta A do B różnymi środkami transp
 Co jest tutaj nie tak? Przede wszystkim długość. Tytuł ma za zadanie - zaraz po obrazku - zatrzymać odbiorcę oraz ukierunkować temat. Sama grafika tego nie zrobi. Skróćmy zatem zapis do takiej formy: “Miasto A - Miasto B. Koleją czy autem?”. Takim nagłówkiem nie tracimy zaufania odbiorcy, ponieważ nie oszukujemy go nim. Często zdarza się, że portale tworzą możliwie najogólniejsze tytuły celem zyskania odbiorcy. Nie jest to jednak odbiorca stały. Wracając jednak do nagłówka; jego zapis w `html` będzie reprezentował się następująco:
 
 ```html
-<meta property="og:title" content="Miasto A - Miasto B. Koleją czy autem?" />
-```
+<meta property="og:title" content="Miasto A - Miasto B. Koleją czy autem?" />```
 
 Jak widać, jest bardzo klarowny oraz (w porównaniu do oryginalnego) krótszy. Możemy zatem wykazać się teraz za pomocą właściwości `og:description`. Co możemy w nim umieścić? Możliwości jest bardzo dużo. Przykładami tego są: wstęp artykułu wprost ze strony (odbiorca jest w stanie już na zewnętrznej stronie zapoznać się z pierwszymi słowami wpisu), opis ogólny (czyli skupiający w kilku słowach treść), rozważanie (względem przykładu: “Rower zbyt wolny, samochód zbyt drogi… może pociąg?”) albo atak w stronę użytkownika (jak wcześniej: “A więc jedziesz na LPG… masz ładowarkę do zapalniczek?”). Ostatni jednak nie jest zalecany, chyba że taki jest cel piszącego. Należy jednak liczyć się z konsekwencjami. Dużo rzeczy rozprzestrzenia się poprzez sieć znajomych i należy mieć na uwadze, że jednak niekorzystna opinia może zniechęcić nawet kilkadziesiąt osób. Niekiedy jednak działa to w drugą stronę; ludzie specjalnie wchodzą na stronę, ale z reguły wyłącznie aby atakować autora wpisu. Czy potrzebujemy takich zachowań?
 
 Zaprojektujmy jeden z opisów:
 
 ```html
-<meta property="og:description" content="Rower zbyt wolny, samochód zbyt drogi… może pociąg?" />
-```
+<meta property="og:description" content="Rower zbyt wolny, samochód zbyt drogi… może pociąg?" />```
 
 I na koniec cały kod:
 ```html
 <meta property="og:title" content="Miasto A - Miasto B. Koleją czy autem?" />
 <meta property="og:description" content="Rower zbyt wolny, samochód zbyt drogi… może pociąg?" />
-<meta property="og:image" content="train.jpeg" />
-```
+<meta property="og:image" content="train.jpeg" />```
 
 ### Praca nad właściwym wyświetlaniem
 
@@ -84,7 +79,7 @@ Tak oto przystosowaliśmy nasz artykuł pod względem social-media. Sprawdźmy z
 Co poszło nie tak? No cóż: zdarza się, że nasze dodatkowe dane nie są wzięte pod uwagę. Szczególnie, jeżeli udostępniamy już kiedyś udostępniony wpis. Skutkuje to pobraniem starych wartości. Należy się ich pozbyć. Robimy to za pomocą [Sharing Debugger
 ![]](https://developers.facebook.com/tools/debug/sharing/). Jest to narzędzie pozwalające aktualizować treści pobierane z witryny. Na stronie wklejamy adres strony a następnie klikamy napis **Scrape Again**, co pozwoli zaktualizować informacje. Czasami należy zrobić to dwa razy - dla pewności że wszystko będzie w porządku.
 
-![]({{site.baseurl}}/img/post-img/2017-07-07/fot03.png)
+![]({{site.baseurl}}/img/post-img/2017-07-07/fot02.png)
 
 Jak widać, wszystko jest na swoim miejscu. Taka forma przedstawiania wpisu jest nie dość że ciekawsza, to i również schludniejsza, co również ma pozytywny wpływ na odbiór strony przez potencjalnych odwiedzających.
 
@@ -92,13 +87,12 @@ Jak widać, wszystko jest na swoim miejscu. Taka forma przedstawiania wpisu jest
 
 Tutaj mamy dwa wyjścia. Możemy ustawić te treści sztywno, albo można również nieco skonfigurować to, co tworzymy. Posłuże się tutaj Jekyllem oraz Wordpressem. W Jekyllu, na tej stronie obrazki, opis oraz tytuł artykułu ustawiam poprzez YAML:
 
-```
+```YAML
 ---
 title: Ten tytuł to nie przypadek - Open Graph Protocols
 excerpt: Ten opis to również nie przypadek, jak to zrobić?
 img-thumb: 2017-07-07.png
----
-```
+---```
 
 Tak prezentują się (wybiórczo) elementy każdego wpisu. Dzięki nim mogę decydować o tym, jaki będzie tytuł danego atrykułu, co będzie zawierał opis i jaki obrazek będzie tym przewodnim. Jeżeli nie uzupełnię  któregoś z pól, nic nie szkodzi - wtedy uruchamiają się inne funkcje, które zrobią to w zamian za te wykorzystane tutaj. Mechanizm jest zatem całkiem prosty.
 

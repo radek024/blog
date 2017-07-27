@@ -33,23 +33,21 @@ body:not(.main-page) .content a:visited{
 }
 
 div[class^="language"]{
-  white-space: pre;
+  white-space: pre-wrap;
   font-size: 0.75em;
   line-height: 23px;
   font-family: monospace;
 }
 
 div[class^="language"] code{
+  white-space: pre-wrap;
   background-color: #FFF;
   color: #000;
 }
 
 div[class^="language"] pre{
   white-space: pre-wrap;       /* css-3 */
- white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
- white-space: -pre-wrap;      /* Opera 4-6 */
- white-space: -o-pre-wrap;    /* Opera 7 */
- word-wrap: break-word;       /* Internet Explorer 5.5+ */
+ word-wrap: break-word;
 }
 
 code{
@@ -57,7 +55,6 @@ code{
   background: #555555;
   border-radius: 4px;
   color: #FFF;
-  white-space: pre-line;
 }
 
 blockquote{
@@ -149,6 +146,14 @@ blockquote::after{
   color: #000;
   text-decoration: none;
 }
+/*
+.nav-list .nav-item .nav-link:hover, .blog-title .nav-link:hover{
+  border-bottom: 4px solid #FFA726;
+  outline: none;
+}
+.nav-list .nav-item .nav-link:focus, .blog-title .nav-link:focus{
+  border: none;
+}*/
 
 .hamburger-menu{
   position: absolute;
