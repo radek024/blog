@@ -59,9 +59,9 @@ pozostać przy podawaniu wartości przy każdym z elementów oddzielnie.
 
 Ciekawie ten problem został rozwiązany [tutaj](https://codepen.io/jakealbaugh/post/css4-variables-and-sass). Nie mieszajmy jednak - zmienne w CSS mimo dopuszczenia przez przeglądarki są problematyczne.
 
-### Nesting styli
+### Nesting stylów
 
-Chyba najpowszechniejszą funkcją preprocesorów to *nesting*. Jest to inaczej zagnieżdżanie, w tym przypadku styli. Można dzięki temu zaoszczędzić dużo czasu. Przejdźmy od razu do przykładu:
+Chyba najpowszechniejszą funkcją preprocesorów to *nesting*. Jest to inaczej zagnieżdżanie, w tym przypadku stylów. Można dzięki temu zaoszczędzić dużo czasu. Przejdźmy od razu do przykładu:
 
 ```css
 body{
