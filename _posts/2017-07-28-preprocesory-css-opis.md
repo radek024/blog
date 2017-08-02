@@ -102,11 +102,11 @@ Zagnieżdżanie kodu może ponieść za sobą pewne konsekwencje, które mogą b
 
 ### Funkcja `@import`
 
-`@import` pozwala nam na podział pliku styli. Dzięki temu nie muszą one zawierać 600 linii w jednym pliku. Jest to bardzo przydatna funkcja, szczególnie jeżeli nie lubimy bałaganu. Rozwiązanie te idealnie sprawdza się przy m.in. projektowaniu strony pod systemy CMS. Wtedy możemy sobie podzielić nasz plik CSS na style ogólne, dotyczące stron statycznych oraz np.: wpisów.
+`@import` pozwala nam na podział pliku stylów. Dzięki temu nie muszą one zawierać 600 linii w jednym pliku. Jest to bardzo przydatna funkcja, szczególnie jeżeli nie lubimy bałaganu. Rozwiązanie te idealnie sprawdza się przy m.in. projektowaniu strony pod systemy CMS. Wtedy możemy sobie podzielić nasz plik CSS na style ogólne, dotyczące stron statycznych oraz np.: wpisów.
 
-Importowanie plików CSS jest popularne przy różnego rodzaju frameworkach, gdzie ilość stylów jest naprawdę bardzo duża. Wtedy organizacja pracy nie dość że jest łatwiejsza, to ponadto jesteśmy w stanie taki plik łatwo zoptymalizować poprzez dołączenie tylko potrzebnych styli.
+Importowanie plików CSS jest popularne przy różnego rodzaju frameworkach, gdzie ilość stylów jest naprawdę bardzo duża. Wtedy organizacja pracy nie dość że jest łatwiejsza, to ponadto jesteśmy w stanie taki plik łatwo zoptymalizować poprzez dołączenie tylko potrzebnych stylów.
 
-Warto podkreślić, że funkcja `@import` jest natywnie dostępna. Nie jest ona jednak powszechnie wykorzystywana m.in. ze względu na mniejszą wydajność od zwyczajnego `link`. Dlaczego zatem nie dodajemy podzielonych plików styli za pomocą `link`? Kolejne dobre praktyki mówią o linkowaniu jak najmniejszej liczby plików styli do pliku `.html`, więc nie stosuje się tak szczegółowego załączenia plików. W preprocesorach dotyczy to wyłącznie wersji produkcyjnej strony. Po przekonwertowaniu plików preprocesora otrzymujemy jeden plik CSS.
+Warto podkreślić, że funkcja `@import` jest natywnie dostępna. Nie jest ona jednak powszechnie wykorzystywana m.in. ze względu na mniejszą wydajność od zwyczajnego `link`. Dlaczego zatem nie dodajemy podzielonych plików stylów za pomocą `link`? Kolejne dobre praktyki mówią o linkowaniu jak najmniejszej liczby plików stylów do pliku `.html`, więc nie stosuje się tak szczegółowego załączenia plików. W preprocesorach dotyczy to wyłącznie wersji produkcyjnej strony. Po przekonwertowaniu plików preprocesora otrzymujemy jeden plik CSS.
 
 ### Mixiny
 
