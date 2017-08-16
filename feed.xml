@@ -12,7 +12,7 @@
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.baseurl }}{{ post.url }}</link>
+        <link>https://radek024.github.io/{{ site.baseurl }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.baseurl }}{{ post.url }}</guid>
       </item>
     {% endfor %}
