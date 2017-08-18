@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Preprocesory i ich możliwości
 author: Radek
