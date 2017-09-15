@@ -26,28 +26,21 @@ A jak osiągnąć responsywność strony? Robimy to poprzez style:
 body{
   background-color: red;
 }
-}
-```
+}```
 Tutaj utworzyliśmy style, które ustawią kolor tła na czerwony, jeżeli szerokość ekranu będzie równa maksymalnie 450 pikseli. Analogicznie jest z innymi responsywni elementami.
 
 ###  Viewport
 
 Przygoda z responsywnością nie kończy się stricte tutaj. Aby wszystko działało, musimy dodać jeszcze tak zwany *viewport*:
-
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1">
-```
+<meta name="viewport" content="width=device-width, initial-scale=1">```
 Jest to podstawowy i bardzo powszechny zapis umieszczany w `head`. Wartość `width` określa szerokość strony(czyli `device-width`), a `initial-scale` - jej przybliżenie, w tym przypadku jest to standardowe wyświetlanie strony bez zooma.
 
 Bardzo często można się spotkać z użyciem `maximum-scale` oraz `minimum-scale`. Ich stosowanie jest złą praktyką. Określają one maksymalne oraz minimalne przybliżenie jakie użytkownik może ustawić na stronie. Do naszego interesu nie należy ograniczanie możliwości odwiedzającego stronę.
 
 Poza zaaplikowaniem styli w pliku CSS możemy dodać responsywność za pomocą atrybutu `media` w znaczniku `link`:
-
 ```html
-<link rel="stylesheet" media="min-width: 760px" href="computer-styles.css" />
-
-```
-
+<link rel="stylesheet" media="min-width: 760px" href="computer-styles.css" />```
 Te style załadują się przy szerokości ekranu wynoszącej co najmniej 760px. Dzięki tej metodzie dodawania styli responsywnych odchudzamy główny plik CSS i mamy pewien ład w plikach. Nie jest to jednak powszechna praktyka - odwiedzający ma do załadowania wtedy kilka plików CSS, a nie jeden. Ponadto style z reguły nie są na tyle ciężkie, aby podział był konieczny.
 
 Na tym opiera się całość działania stron responsywnych.
