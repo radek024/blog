@@ -21,6 +21,7 @@ Stąd bierze się pojęcie *mobile first*. Jest to swego rodzaju system reguluj�
 OK. To bardzo dobrze, że strona wyświetla się nam w prawidłowy sposób na kilku rozdzielczościach. Łatwo jest jednak zauważyć, że często strony przyjmują podobne schematy. Doskonałym przykładem jest tutaj menu - jest ono chowane i zamiast niego pojawia się tak zwany *hamburger menu*. Powodów dla których stosowana jest taka praktyka nie należy długo szukać - menu nie jest na tyle ważne, aby zajmowało dużą część dostępnego ekranu na urządzeniach o mniejszych wyświetlaczach. Ważniejsza jest treść strony. Czy w takim razie powinniśmy tworzyć strony pod względem układania ich elementów? Nie lepszym wyjściem jest postawienie na jej treść? Przecież po to właśnie przychodzi użytkownik. Stąd też pojawiło się określenie *content first*. Jest ono spokrewnione z *mobile first*, ale lepiej oddaje logikę budowania dobrych stron.
 
 A jak osiągnąć responsywność strony? Robimy to poprzez style:
+
 ```css
 @media screen and (max-width: 450px){
 body{
@@ -33,6 +34,7 @@ Tutaj utworzyliśmy style, które ustawią kolor tła na czerwony, jeżeli szero
 ###  Viewport
 
 Przygoda z responsywnością nie kończy się stricte tutaj. Aby wszystko działało, musimy dodać jeszcze tak zwany *viewport*:
+
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">```
 
@@ -41,6 +43,7 @@ Jest to podstawowy i bardzo powszechny zapis umieszczany w `head`. Wartość `wi
 Bardzo często można się spotkać z użyciem `maximum-scale` oraz `minimum-scale`. Ich stosowanie jest złą praktyką. Określają one maksymalne oraz minimalne przybliżenie jakie użytkownik może ustawić na stronie. Do naszego interesu nie należy ograniczanie możliwości odwiedzającego stronę.
 
 Poza zaaplikowaniem styli w pliku CSS możemy dodać responsywność za pomocą atrybutu `media` w znaczniku `link`:
+
 ```html
 <link rel="stylesheet" media="min-width: 760px" href="computer-styles.css" />```
 
