@@ -25,8 +25,7 @@ Pierwsze oraz drugie rozwiązanie nie wymaga zbyt dużo wysiłku - często prefi
 ```html
 <!--[if lt IE 8]>
  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-```
+<![endif]--> ```
 
 Jeżeli przeglądarka jest przestarzała (tutaj: starsza od Internet Explorer 8), na stronie wyświetli się taki komunikat. Jest on w żywcem wzięty z [initializr](http://www.initializr.com/), czyli najłatwiej rzecz ujmując “bazy” pod stronę internetową.
 
@@ -47,8 +46,7 @@ Tryb standardowy wyświetla stronę w prawidłowym schemacie. Większość stron
 Aby sprawdzić w jakim trybie wyświetlana jest strona należy wkleić następujący kod do konsoli na danej stronie internetowej:
 
 ``` js
-(document.compatMode==='CSS1Compat'?'Standards':'Quirks') + ' mode.';
-```
+(document.compatMode==='CSS1Compat'?'Standards':'Quirks') + ' mode.'; ```
 
 W konsoli otrzymamy komunikat w jakim trybie jest wyświetlana strona. Jak widać - dobre wyświetlanie stron nie leży wyłącznie w interesie osób tworzących strony WWW.
 
