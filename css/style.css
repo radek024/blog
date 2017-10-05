@@ -37,6 +37,9 @@ div[class^="language"]{
   font-size: 0.75em;
   line-height: 23px;
   font-family: monospace;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-left: 3px solid #FFA726;
 }
 
 div[class^="language"] code{
@@ -691,6 +694,24 @@ body .content .book a:visited{
     transform: translateY(80px);
     transition:opacity 2s, all .5s;
     opacity: 1;
+  }
+
+  .no-js .page-navigation .nav-list{
+    z-index: 1;
+    opacity: 1;
+    position: static;
+    transform: none;
+    margin-top: 80px;
+  }
+
+  .no-js .welcome-heading{
+    margin-top: 130px;
+  }
+
+  .no-js .page-navigation{
+    position: absolute;
+    top: -130px;
+    left: 0;
   }
 
   .nav-list .nav-item{
