@@ -1,11 +1,11 @@
 ---
 layout: post
-title: CSS i tak dalej
+title: Wsparcie dla przeglądarek
 author: Radek
-categories: bykiwkodzie css
-excerpt: Czym jest RWD?
+categories: bykiwkodzie css strony-www
+excerpt: Support 'em all!
 comments: true
-img-thumb: 2017-09-15.png
+img-thumb: 2017-10-06.png
 ---
 
 Często podróżując po sieci można spotkać powiedzenie:
@@ -204,3 +204,8 @@ Ten sposób wyświetlania elementów obsługuje 73% przeglądarek(jeżeli weźmi
 ### Podsumowanie
 
 Jak widać strony internetowe posiadają bardzo szeroki wachlarz możliwości jeśli idzie o wsparcie starszych przeglądarek. Często należy dostosować stronę do wymagań klienta - a jednym może być kompatybilność z chociażby IE 6 - chociaż dzisiaj przy zdrowych zmysłach podjęcie się takiego czegoś jest istnym szaleństwem. :) Posiadając jedną taką ilość narzędzi mamy naprawdę rzetelne zaplecze, które należy wykorzystać.
+
+Warto zajrzeć:
+- [Menu oparte o regułę @support](https://codepen.io/radek024/pen/XeggJZ),
+- [Caniuse](https://caniuse.com/),
+- [nieco więcej na temat trybu quirks](https://www.quirksmode.org/css/quirksmode.html).
