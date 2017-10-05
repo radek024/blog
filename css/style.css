@@ -44,7 +44,7 @@ div[class^="language"]{
 
 div[class^="language"] code{
   white-space: pre-wrap;
-  //background-color: #FFF;
+  background-color: transparent;
   color: #000;
 }
 
