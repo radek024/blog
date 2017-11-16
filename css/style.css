@@ -286,13 +286,17 @@ blockquote::after{
   text-transform: uppercase;
 }
 
-.post .content img{
-  width: 100%;
+.post .content p > img{
+  width: 75%;
+  transform: translateX(-50%);
+  position: relative;
+  left: 50%;
 }
 
-.post .content .thumb-img{
+.post .content img.thumb-img{
   max-width: 50%;
   transform: translateX(50%);
+  position: static;
 }
 
 .post .meta{
@@ -538,7 +542,7 @@ dl dd{
   background-color: rgba(77,34,101,0.5);
 }
 
-.book img{
+.book > img{
  flex-basis: 25%;
 }
 .book .about{
