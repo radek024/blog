@@ -79,10 +79,10 @@ Moja złota zasada brzmi: **nic na siłę**. Nigdy nie warto się uczyć na przy
 
 Osobiście podczas nauki staram się łączyć wszystkie możliwe sposoby. Dzięki temu nie męczy mnie medium z jakiego korzystam, a przy okazji mam możliwość spojrzenia na sprawę z różnych punktów widzenia. Kolejność z reguły jest mniej więcej taka:
 
-Fora internetowe
-Filmiki
-Artykuły/książki
-Spotkania oraz konferencje
+- Fora internetowe
+- Filmiki
+- Artykuły/książki
+- Spotkania oraz konferencje
 
 Dlaczego tak jest? Przede wszystkim często znajduję jakieś ciekawe problemy do rozwiązania na forum. Często również mogę trafić tam na odpowiedzi innych, bardziej(lub mniej) doświadczonych użytkowników. Jeżeli uznam kwestię za ciekawą, zagłębiam się w tematykę i zaczynam od filmów - z reguły te mogę sobie po prostu przewinąć i przejrzeć na czym dana rzecz polega. O ile temat jest ciekawy - zaczynam szukać kolejnych filmów, a następnie artykułów oraz książek. W międzyczasie tworzę notatki. Dzięki temu posiadam jakąś podstawową wiedzę, którą później mogę skonfrontować na chociażby konferencji lub podczas jakiejś rozmowy z osobą z branży.
 
