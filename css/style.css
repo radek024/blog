@@ -787,7 +787,7 @@ body .content .book a:visited{
   .icon:after {
     left: -150px;
   }
-}
+
 
 .icon:before {
   opacity: 0;
@@ -800,3 +800,107 @@ body .content .book a:visited{
   left: 10px;
   }
 }
+
+
+@media print {
+    html{
+        font: normal 400 16px/24px 'Times New Roman', sans-serif;
+    }
+    
+    nav, footer, .book, .meta, #disqus_thread{
+      display: none;
+    }
+    
+    a{
+        color: #000 !important;
+        text-decoration: none;
+    }    
+    
+    a:not([href^="#"])::after{
+        display: inline-block;
+        content: "(" attr(href) ")";
+    }
+    
+    .post h3{
+        padding: 0;
+    }
+    
+    .post h3::before{
+        content: "";
+    }
+    
+    .table-content .content-list{
+        font-size: unset;
+    }
+    
+    .table-content h3{
+        font-family: serif;
+    }
+    
+    blockquote{
+        font-size: unset;
+        color: #000;
+        font-style: italic;
+    }
+    
+        div[class^="language"]{
+        border: none;
+        padding: unset;
+    }
+    
+    code{
+        color: #000;
+        padding: unset;
+        font-size: 16px;
+    }
+    .post h3 code{
+        font-size: 1.4em;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+    
+    div.language a::after{
+        content: "";
+    }
+
+    .welcome-heading{
+        padding-top: 0;
+    }
+    
+    .container{
+        margin-top: 0;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
