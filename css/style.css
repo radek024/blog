@@ -191,7 +191,7 @@ blockquote::after{
   vertical-align: middle;
 }
 
-.welcome-heading .container div{
+.welcome-heading .container div:last-child{
   flex: 1;
 }
 
@@ -200,6 +200,61 @@ blockquote::after{
   margin-right: 20px;
   height: 100%;
   max-width: 250px;
+  transition: 1s;
+  padding: 60px;
+}
+
+.image-thumbnail{
+  transition: 1s;
+}
+.container .image-thumbnail{
+  position: relative;
+  border-width: 0px;
+}
+.container .image-thumbnail:hover::before {
+  animation: spin 5s linear infinite;
+}
+.container .image-thumbnail:hover::after {
+  animation: spin 5s linear infinite reverse;
+}
+.container .image-thumbnail::before {
+  animation: spin 5s linear infinite;
+}
+.container .image-thumbnail::after {
+  animation: spin 5s linear infinite reverse;
+}
+.container .image-thumbnail::after {
+  content: "";
+  position: absolute;
+  top: 37px;
+  left: 37px;
+  width: 160px;
+  height: 160px;
+  border: 3px solid #00796B;
+  border-radius: 100%;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+.container .image-thumbnail::before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 200px;
+  height: 200px;
+  border: 3px solid #1565C0;
+  border-radius: 100%;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg) scale(1);
+  }
 }
 
 .welcome-heading .container::before{
@@ -806,48 +861,48 @@ body .content .book a:visited{
     html{
         font: normal 400 16px/24px 'Times New Roman', sans-serif;
     }
-    
+
     nav, footer, .book, .meta, #disqus_thread{
       display: none;
     }
-    
+
     a{
         color: #000 !important;
         text-decoration: none;
-    }    
-    
+    }
+
     a:not([href^="#"])::after{
         display: inline-block;
         content: "(" attr(href) ")";
     }
-    
+
     .post h3{
         padding: 0;
     }
-    
+
     .post h3::before{
         content: "";
     }
-    
+
     .table-content .content-list{
         font-size: unset;
     }
-    
+
     .table-content h3{
         font-family: serif;
     }
-    
+
     blockquote{
         font-size: unset;
         color: #000;
         font-style: italic;
     }
-    
+
         div[class^="language"]{
         border: none;
         padding: unset;
     }
-    
+
     code{
         color: #000;
         padding: unset;
@@ -858,7 +913,7 @@ body .content .book a:visited{
         text-transform: lowercase;
         font-weight: 400;
     }
-    
+
     div.language a::after{
         content: "";
     }
@@ -866,7 +921,7 @@ body .content .book a:visited{
     .welcome-heading{
         padding-top: 0;
     }
-    
+
     .container{
         margin-top: 0;
     }
