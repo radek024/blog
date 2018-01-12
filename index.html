@@ -9,7 +9,7 @@ layout: default
         <a href="{{site.baseurl}}{{news.url}}" class="content-url" title="{{news.title}}"><h3 class="content-title">{{news.title}}</h3></a>
       </header>
       <p class="meta">
-        - {{news.author}} - <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time> - {{news.categories | join }} -
+        <img src="{{site.baseurl}}/img/author18x18.png" alt=""> {{news.author}} <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{news.categories | join }}
       </p>
       <p class="text">{{news.excerpt}}
         <a href="{{site.baseurl}}{{news.url}}" class="read-more" title="Czytaj dalej...">Czytaj dalej...</a>

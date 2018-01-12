@@ -203,9 +203,9 @@ blockquote::after{
   padding: 60px;
 }
 
-.main-page .welcome-heading .deco-img{
+.main-page .welcome-heading .deco-img, .undefinied .welcome-heading .deco-img{
   border-radius: 50%;
-    
+
 }
 
 .image-thumbnail{
@@ -215,18 +215,15 @@ blockquote::after{
   position: relative;
   border-width: 0px;
 }
-.container .image-thumbnail:hover::before {
-  animation: spin 5s linear infinite;
-}
-.container .image-thumbnail:hover::after {
-  animation: spin 5s linear infinite reverse;
-}
+
 .container .image-thumbnail::before {
-  animation: spin 5s linear infinite;
+  animation: spin 8s linear infinite;
 }
+
 .container .image-thumbnail::after {
-  animation: spin 5s linear infinite reverse;
+  animation: spin 6s linear infinite reverse;
 }
+
 .container .image-thumbnail::after {
   content: "";
   position: absolute;
@@ -239,6 +236,7 @@ blockquote::after{
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
 }
+
 .container .image-thumbnail::before {
   content: "";
   position: absolute;
@@ -345,11 +343,15 @@ blockquote::after{
   text-transform: uppercase;
 }
 
-.post .content p img{
+.post .content p:not(.meta) img{
   width: 75%;
   transform: translateX(-50%);
   position: relative;
   left: 50%;
+}
+
+p.meta img{
+  padding: 0 2px 0 5px;
 }
 
 .post .content img.thumb-img{
@@ -551,22 +553,23 @@ dl dd{
   text-align: center;
   border-bottom: 3px solid #000;
   margin: auto 20px;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   flex-flow: row wrap;
   align-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.categories-list .category-item{
+  flex: 1 0 50%;
+  font-weight: 700;
+  align-self: center;
 }
 
 .category-name, .category-title{
   color: #000;
   text-decoration: none;
-  font-weight: 700;
   text-transform: uppercase;
-  flex: 1 0 20%;
-  align-self: center;
 }
 
 .category-title{
@@ -632,11 +635,16 @@ body .content .book a:visited{
 }
 
 .footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
   width: 100%;
   text-align: center;
   background-color: #fff;
   padding: 20px;
   color: #000;
+  border-top: 2px solid #000;
   box-sizing: border-box;
   font-weight: 700;
   letter-spacing: 2px;
@@ -647,7 +655,14 @@ body .content .book a:visited{
   font-size: 24px;
 }
 
+.footer p{
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
 .footer .social-icons {
+  padding: 0;
   margin: 0;
   display: inline-block;
   list-style-type: none;
@@ -705,7 +720,7 @@ body .content .book a:visited{
   position: absolute;
   border-radius: 15px;
   top: -33px;
-  left: -35px;
+  left: -150px;
 }
 
 @media screen and (max-width: 667px){
@@ -843,21 +858,18 @@ body .content .book a:visited{
     font-size: 1.5em;
   }
 
-  .icon:after {
-    left: -150px;
+  .footer{
+    flex-direction: column;
   }
 
-
-.icon:before {
-  opacity: 0;
-  content: "";
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #ccc;
-  position: absolute;
-  top: -10px;
-  left: 10px;
+  .footer .social-icons{
+    margin-top: 10px;
   }
+
+  .icon:before {
+    top: -10px;
+    left: 10px;
+    }
 }
 
 
