@@ -18,7 +18,7 @@ No właśnie nikt - a że temat uważam za ciekawy, to dzisiaj przystosujemy sob
 
 ### Wstęp do stylizowania strony pod kątem druku
 
-Przede wszystkim musimy ustalić kilka rzeczy. Jedną z nich - i to podstawową - będzie czcionka. Tutaj, na blogu używam czcionki Lato. Jest to natywna czcionka systemu operacyjnego Ubuntu. I tutaj słów kilka odnośnie czcionek.
+Przede wszystkim musimy ustalić kilka rzeczy. Jedną z nich - i to podstawową - będzie czcionka. Tutaj, na blogu używam czcionki Open Sans.I tutaj słów kilka odnośnie czcionek.
 
 Warto wiedzieć, że czcionki dzielimy przede wszystkim na dwa rodzaje: **szeryfową** oraz **bezszeryfową**. Skąd takie nazewnictwo? Chodzi tutaj o ich wygląd. W przeciwieństwie do drugich, te pierwsze posiadają ozdobniki w postaci m.in. ogonków doczepionych do liter. Jakiego rodzaju czcionką jest Lato? Oczywiście że bezszeryfową. Są one lepsze w czytaniu czegoś na wyświetlaczu. Jest to swego rodzaju dogmat, który został już potwierdzony kilkaset razy. Oto niektóre powody dlaczego czcionki rodzaju sans-serif są lepsze dla wyświetlaczy:
 - Czcionka szeryfowa może nadać odgórny charakter tekstowi ze względu na zawarte szeryfy,

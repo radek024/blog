@@ -153,9 +153,9 @@ Funkcje przydatne są w dużych projektach. Bardzo przykład ich wykorzystania u
 
 Kiedy już zaczynamy naszą przygodę z preprocesorem, często pierwszym poleconym jest SASS. Chwilę później pojawia się termin “SCSS”. Co to za cudo?
 
-SCCS to w pewnym sensie bardziej przyjazna odmiana SASSa. Zanim wytłumaczę dlaczego, nadmienię że w tym drugim składnia jest uproszczona do maksimum. W SASSie nie korzystamy że średników na końcu oraz klamerek, a jeżeli chcemy korzystać z zagnieżdżania, musimy pamiętać o odpowiedniej ilości wcięć. W praktyce zatem całość jest nieco utrudniona.
+SCSS to w pewnym sensie bardziej przyjazna odmiana SASSa. Zanim wytłumaczę dlaczego, nadmienię że w tym drugim składnia jest uproszczona do maksimum. W SASSie nie korzystamy że średników na końcu oraz klamerek, a jeżeli chcemy korzystać z zagnieżdżania, musimy pamiętać o odpowiedniej ilości wcięć. W praktyce zatem całość jest nieco utrudniona.
 
-SCSS m jest pod tym względem bardziej klasyczny, dzięki czemu o wiele łatwiej go oswoić. Tutaj występują średniki oraz klamerki. Porównajmy kod SASSa oraz SCSSa:
+SCSS jest pod tym względem bardziej klasyczny, dzięki czemu o wiele łatwiej go oswoić. Tutaj występują średniki oraz klamerki. Porównajmy kod SASSa oraz SCSSa:
 
 ```css
 .menu
@@ -165,9 +165,9 @@ SCSS m jest pod tym względem bardziej klasyczny, dzięki czemu o wiele łatwiej
   padding: 20px
   background-color: #abdeca
   .menu-list
-  list-style-type: none
-  display: flex
-  justify-content: space-around
+   list-style-type: none
+   display: flex
+   justify-content: space-around
     li:first-child .menu-link
     text-decoration: none
 ```
