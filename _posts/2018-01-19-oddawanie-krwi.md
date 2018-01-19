@@ -50,7 +50,7 @@ Zdarzają się również sytuacje gdzie igła może wysunąć się z żyły. Wid
 
 Czy należy się bać? Uważam że nie. Dwie ostatnie sytuacje są naprawdę bardzo rzadko spotykane. Trzeba mieć po prostu bardzo dużego pecha. :)
 
-### Honorowy oraz Zasłużony Honorowego Dawca Krwi oraz przywileje
+### Honorowy oraz Zasłużony Honorowego Dawcy Krwi oraz przywileje
 
 To również bardzo ważna kwestia. Mianowicie: **Honorowy Dawca Krwi nie jest Zasłużonym  Honorowym Dawcą Krwi**!
 
