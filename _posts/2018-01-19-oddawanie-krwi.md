@@ -24,7 +24,7 @@ Zanim wejdziemy do ośrodka, konieczne jest założenie obuwia ochronnego. Nast�
 
 Najkrótsza wizyta będzie związana z oddaniem krwi, najdłuższa natomiast - z oddanie płytek (chociaż osocze trwa podobnie długo). Proces rejestracji wygląda tak samo w każdym z przypadków. Przed wydaniem dokumentów dot. oddania krwi należy się wylegitymować poprzez dowód osobisty lub prawo jazdy.
 
-Po przejściu przez pierwszy etap rejestracji otrzymujemy ankietę oraz oświadczenie dot. potwierdzającą że krew nadaje się do dalszego użytku.
+Po przejściu przez pierwszy etap rejestracji otrzymujemy ankietę oraz oświadczenie dot. tego, że krew nadaje się do dalszego użytku.
 
 Ankieta zawiera pytania odnośnie odbytych ostatnio chorób oraz m.in. ostatnich wizyt u stomatologa. Bardzo ważne jest jej dokładne przeczytanie, ponieważ będzie to podstawą do dalszego etapu donacji. Po uzupełnieniu ankiety lądujemy na fotelu, gdzie przebadana będzie nasza krew. Jeżeli jest to pierwsza donacja, krew będzie pobierana dożylnie. Następne wizyty mogą być mniej lub bardziej bolesne (spotkałem się z różnymi opiniami), ponieważ przez okres sześciu miesięcy krew jest pobierana z palca. **Jeżeli będzie to wkłucie dożylne, warto wybrać rękę która jest naszą główną. Dzięki temu nie będzie ona tak obciążona, jak ta z której pobrano krew**.
 
