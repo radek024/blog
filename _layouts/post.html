@@ -13,8 +13,9 @@ layout: default
       </section>
           {{content}}
       <p class="meta">
-            <img src="{{site.baseurl}}/img/author18x18.png" alt=""> {{page.author}} <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{page.categories | join }} 
+            <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{page.categories | join }} 
       </p>
+      {% include author.html %}
       {% include book.html %}
       {% include comments.html %}
     </div>
