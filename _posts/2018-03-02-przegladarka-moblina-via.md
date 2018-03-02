@@ -8,7 +8,7 @@ comments: true
 img-thumb: 2018-03-02.png
 ---
 
-Nie da się ukryć, że coraz więcej czasu w sieci spędzamy na komórce. Dane - i to już całkiem stare, bowiem mają ponad rok - doskonale to (udowodniają)[http://www.telegraph.co.uk/technology/2016/11/01/mobile-web-usage-overtakes-desktop-for-first-time/]. Czy to kres komputerów? Czy najwyższa pora sprzedać swojego laptopa i kupić topowego smartfona? Oczywiście że nie. Komórki pełnią ważną rolę w codziennym życiu, ale zanim staną się głównymi urządzeniami które używamy pewnie minie jeszcze trochę czasu.
+Nie da się ukryć, że coraz więcej czasu w sieci spędzamy na komórce. Dane - i to już całkiem stare, bowiem mają ponad rok - doskonale to (http://www.telegraph.co.uk/technology/2016/11/01/mobile-web-usage-overtakes-desktop-for-first-time/)[udowodniają]. Czy to kres komputerów? Czy najwyższa pora sprzedać swojego laptopa i kupić topowego smartfona? Oczywiście że nie. Komórki pełnią ważną rolę w codziennym życiu, ale zanim staną się głównymi urządzeniami które używamy pewnie minie jeszcze trochę czasu.
 
 Niemniej jednak operatorzy sieci ciągle kasują nas na danych mobilnych. Niestety, ale taki jest biznes i jeżeli ktoś może na nas zarobić, to zarobi. W jaki sposób możemy zredukować ilość używanych danych w sieci? Możemy z tym walczyć - a z pomocą może przyjść przeglądarka Via.
 
