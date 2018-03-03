@@ -876,7 +876,7 @@ body .content .book a:visited{
 @media print {
     html{
         font: normal 400 16px/24px 'Times New Roman', sans-serif;
-        backg
+        background: #FFF;
     }
 
     nav, .footer, .book, .meta, #disqus_thread{
@@ -925,7 +925,9 @@ body .content .book a:visited{
         color: #000;
         padding: unset;
         font-size: 16px;
+        background: #FFF;
     }
+    
     .post h3 code{
         font-size: 1.4em;
         text-transform: lowercase;
