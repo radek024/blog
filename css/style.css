@@ -876,9 +876,10 @@ body .content .book a:visited{
 @media print {
     html{
         font: normal 400 16px/24px 'Times New Roman', sans-serif;
+        backg
     }
 
-    nav, footer, .book, .meta, #disqus_thread{
+    nav, .footer, .book, .meta, #disqus_thread{
       display: none;
     }
 
@@ -914,15 +915,17 @@ body .content .book a:visited{
         font-style: italic;
     }
 
-        div[class^="language"]{
+    div[class^="language"]{
         border: none;
         padding: unset;
+        background: unset;
     }
 
     code{
         color: #000;
         padding: unset;
         font-size: 16px;
+        color: #FFF;
     }
     .post h3 code{
         font-size: 1.4em;
