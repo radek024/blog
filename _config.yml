@@ -4,5 +4,7 @@ description:
   Projekt miał się nazywać <span class="alert">byki w kodzie</span>... i tak właśnie się nazywa. Znajdziesz tu krótkie artykuły na temat tworzenia stron - totalne podstawy, czasami też jakieś inne smuty. Miłego czytania!
 baseurl: /blog
 permalink: pretty
+collections:
+  authors:
 exclue:
   - README.md

@@ -1,0 +1,19 @@
+{% assign auth = site.authors | where: "name", page.author %}
+<div class="author-metadata">
+ <img src="/{{auth[0].image_path}}" class="author-img" alt="">
+ <div class="about-author">
+  <h3 class="author-name">{{auth[0].name}}</h3>
+  <div class="author-info">
+   <span class="author-login">{{auth[0].login}}</span>
+   <ul class="author-social">
+    <li><a href="{{auth[0].social.snap}}"><img src="{{site.baseurl}}/img/snapchat.png" alt=""></a></li>
+    <li><a href="{{auth[0].social.github}}"><img src="{{site.baseurl}}/img/github.png" alt=""></a></li>
+    <li><a href="{{auth[0].social.codepen}}"><img src="{{site.baseurl}}/img/codepen.png" alt=""></a></li>
+    <li><a href="mailto:{{auth[0].social.mail}}"><img src="{{site.baseurl}}/img/mail.png" alt=""></a></li> 
+   {% for link in autaah[0].social %}   
+   {% endfor %}
+   </ul>      
+  </div>
+  <p class="author-description">{% if auth[0].content.size>0 %}{{auth[0].content}}{% endif %}</p>
+ </div>
+</div>
