@@ -18,7 +18,7 @@ if (document.querySelector("body").classList.contains("post")) {
         }
         let table = document.createElement("ol");
         table.classList.add("content-list");
-        for (let i = 1; i <= subtitles.length - 2; i++) {
+        for (let i = 1; i <= subtitles.length - 3; i++) {
             let listItem = document.createElement("li");
             let link = document.createElement("a");
             link.href = "#" + subtitles[i].id;

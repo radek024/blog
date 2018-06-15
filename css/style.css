@@ -377,6 +377,68 @@ p.meta img{
   font-weight: 700;
   margin: 3px;
 }
+
+.author-metadata{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    padding: 20px;
+}
+.author-metadata .author-img{
+    border-radius: 50%;
+}
+
+.author-metadata .about-author{
+    padding: 15px;
+}
+
+.author-metadata .author-login::before{
+    content: "@";
+}
+
+.author-metadata .about-author .author-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author-metadata .about-author .author-login{
+    flex: 2;
+    color: #555;
+    font-style: italic;
+}
+
+.author-metadata .author-social a:hover{
+    transition: .5s;
+    outline: unset;
+}
+
+.author-metadata .author-social a:hover img{
+    filter: contrast(50%)
+}
+
+.author-metadata .about-author .author-name{
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.author-metadata .about-author .author-name::before{
+    content: unset;
+}
+
+.author-metadata .author-social{
+    flex: 1;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.author-metadata .author-social li{
+    flex: 1;
+}
+
 .post h3::before{
   content: "//";
   color: #2E7D32;
@@ -724,6 +786,10 @@ body .content .book a:visited{
   left: -150px;
 }
 
+
+/***************************************************/
+/*/                  RWD                         /*/
+/*************************************************/
 @media screen and (max-width: 667px){
   .page-navigation .container{
     flex-direction: column;
@@ -844,7 +910,7 @@ body .content .book a:visited{
   }
 
   .book{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .post .content .book img{
@@ -857,6 +923,15 @@ body .content .book a:visited{
 
   .welcome-title{
     font-size: 1.5em;
+  }
+
+  .author-metadata{
+    padding: 20px 0 0 0;
+    flex-direction: column;
+  }
+
+  .author-metadata .about-author .author-login{
+    flex: 1;
   }
 
   .footer{
@@ -873,6 +948,9 @@ body .content .book a:visited{
     }
 }
 
+/***************************************************/
+/*/                  DRUKOWANIE                  /*/
+/*************************************************/
 
 @media print {
     html{
