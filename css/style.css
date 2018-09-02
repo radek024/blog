@@ -724,66 +724,39 @@ body .content .book a:visited{
   padding: 0;
 }
 
-.footer .social-icons {
-  padding: 0;
+
+.pager{
+  border-top: 2px solid #003459;
+  display: block;
   margin: 0;
-  display: inline-block;
+  padding: 20px 0 10px;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.footer .social-icons .social-icon {
-  display: inline-block;
-  float: left;
-  margin: auto 5px;
+.pager [class*="article"]{
+  flex: 1;
 }
 
-.footer .social-icons .social-icon img {
-  width: 100%;
+.pager .next-article{
+  text-align: right;
 }
 
-.footer .secret-link, .footer .secret-link:focus, .footer .secret-link:hover{
-  border: 0;
-  outline: none;
-  cursor: default;
+.pager [class*="article"] .article-link{
+  /* background-color: #FFA726; */
   color: #000;
   text-decoration: none;
-}
-
-.icon {
-  width: 25px;
-  height: 25px;
-  display: block;
-  border-radius: 50%;
-  text-align: center;
-  font-style: normal;
-  color: #fff;
-  font-family: monospace;
   font-weight: 700;
-  position: relative;
+  text-transform: uppercase;
 }
 
-.icon:hover {
-  color: #000;
-}
-
-.icon:hover:before, .icon:hover:after {
-  opacity: 1;
-  display: block;
-}
-
-.icon:after {
-  opacity: 0;
-  display: none;
-  width: 200px;
-  content: attr(data-attr);
-  padding: 5px 0;
-  background-color: #ccc;
-  color: #000;
-  font-size: 12px;
-  position: absolute;
-  border-radius: 15px;
-  top: -33px;
-  left: -150px;
+.pager [class*="article"] p{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
 }
 
 
@@ -975,7 +948,7 @@ body .content .book a:visited{
     .post h3{
         padding: 0;
     }
-    
+
     .post h3::before{
         content: "";
     }
@@ -997,7 +970,7 @@ body .content .book a:visited{
     div[class^="language"]{
         border: none;
         padding: unset;
-        background: unset; 
+        background: unset;
     }
 
     code{
@@ -1006,7 +979,7 @@ body .content .book a:visited{
         font-size: 16px;
         background: #FFF;
     }
-    
+
     .post h3 code{
         font-size: 1.4em;
         text-transform: lowercase;
