@@ -653,7 +653,7 @@ dl dd{
   vertical-align: middle;
   justify-content: space-between;
   padding: 10px;
-  /* margin-bottom: 40px; */
+  margin: 1em 0;
   z-index: 1;
 }
 .book::before{

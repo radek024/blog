@@ -52,11 +52,10 @@ if(document.querySelector("body").classList.contains("post")){
   sectionContent.appendChild(sectionLink);
   section.appendChild(sectionContent);
   section.appendChild(sectionImage);
-  console.log(section);
   content.appendChild(section);
 
   const paragraph = document.querySelectorAll(".content .container p");
-  let num = Math.floor((Math.random() * paragraph.length)+1);
+  let num = Math.floor((Math.random() * (paragraph.length- 4))+1);
 
   content.insertBefore(section, paragraph[num]);
  }
