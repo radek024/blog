@@ -652,8 +652,8 @@ dl dd{
   align-items: center;
   vertical-align: middle;
   justify-content: space-between;
-  padding: 20px;
-  margin-bottom: 40px;
+  padding: 10px;
+  /* margin-bottom: 40px; */
   z-index: 1;
 }
 .book::before{
@@ -668,15 +668,17 @@ dl dd{
 }
 
 .book > img{
- flex-basis: 25%;
+ /* flex-basis: 25%; */
+ max-height: 120px;
 }
+
 .book .about{
   padding: 15px;
   flex-basis: 100%;
 }
 
 .book h3{
-  font-size: 1.2em;
+  font-size: 1em;
   color: #FFF;
   padding-top: 0;
   text-transform: none;
@@ -688,10 +690,16 @@ dl dd{
 
 .book p{
   color: #FFF;
+  font-size: .8em;
+  line-height: 1.4;
+  margin: 5px 0;
 }
 
 body .content .book a{
   color: #FFDA59;
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
 }
 body .content .book a:visited{
   color: #FFA726;
@@ -745,8 +753,6 @@ body .content .book a:visited{
 }
 
 .pager [class*="article"] .article-link{
-  /* background-color: #FFA726; */
-  color: #000;
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
