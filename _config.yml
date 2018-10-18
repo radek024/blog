@@ -3,7 +3,11 @@ author: radek024
 description:
   Projekt miał się nazywać <span class="alert">byki w kodzie</span>... i tak właśnie się nazywa. Znajdziesz tu krótkie artykuły na temat tworzenia stron - totalne podstawy, czasami też jakieś inne smuty. Miłego czytania!
 baseurl: /blog
+paginate: 5
+plugins: [jekyll-paginate]
+highlighter: rouge
 permalink: pretty
+paginate_path: /strona-:num/
 collections:
   authors:
 exclue:

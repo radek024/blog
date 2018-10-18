@@ -2,7 +2,7 @@
 layout: default
 ---
 <h2 class="visuallyhidden">Ostatnie treści</h2>
-{% for news in site.posts %}
+{% for news in paginator.posts %}
 <article class="content">
     <div class="container">
       <header class="content-heading">
@@ -17,3 +17,21 @@ layout: default
     </div>
 </article>
 {% endfor %}
+
+<nav class="pagination-panel">
+  <div class="container">
+    <ul class="pagination-list">
+      {% if paginator.previous_page %}
+      <li class="pagination-item"><a class="pagination-link" href="{{site.baseurl}}{{ paginator.previous_page_path }}"> &lt;&lt; Nowsze wpisy</a></li>
+      {% else %}
+      <li class="pagination-item"><span class="pagination-link disabled">Nowsze wpisy</span></li>
+      {% endif %}
+      <li><span>{{ paginator.page }} z {{ paginator.total_pages }}</span></li>
+      {% if paginator.next_page %}
+      <li class="pagination-item"><a class="pagination-link" href="{{site.baseurl}}{{ paginator.next_page_path }}">Starsze wpisy &gt;&gt;</a></li>
+      {% else %}
+      <li class="pagination-item"><span class="pagination-link disabled">Starsze wpisy</span></li>
+      {% endif %}
+    </ul> <!-- categories end -->
+  </div>
+ </nav> <!-- pagination-panel end -->

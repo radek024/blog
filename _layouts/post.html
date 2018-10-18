@@ -13,10 +13,23 @@ layout: default
       </section>
           {{content}}
       <p class="meta">
-            <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{page.categories | join }} 
+            <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{page.categories | join }}
       </p>
       {% include author.html %}
-      {% include book.html %}
+      <ul class="pager">
+      	{% if page.previous.url %}
+      	<li class="previous-article">
+      		<a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" class="article-link"><< Poprzedni artykuł</a>
+          <p>{{page.previous.title}}</p>
+      	</li>
+      	{% endif%}
+      	{% if page.next.url %}
+      	<li class="next-article">
+      		<a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" class="article-link">Kolejny artykuł >></a>
+          <p>{{page.next.title}}</p>
+      	</li>
+      	{% endif %}
+      </ul>      
       {% include comments.html %}
     </div>
   </article>
