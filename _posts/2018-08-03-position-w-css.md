@@ -7,7 +7,7 @@ excerpt: O position słów kilka.
 comments: true
 img-thumb: 2018-08-03.png
 ---
-﻿Tworzenie stron internetowych nie jest szczególnie trudne w obecnych czasach. Do wyboru mamy mnóstwo możliwości: możemy kodować strony za pomocą grida, flexboxa, floatów, frameworków (czyli tak naprawdę gotowych rozwiązań korzystających z ww. narzędzi) czy nawet - o zgrozo - tabel. Rzecz jasna wybór będzie nie zawsze ten sam, ponieważ strona stronie nie równa i często różne witryny będą wykorzystywały różne konfiguracje. 
+﻿Tworzenie stron internetowych nie jest szczególnie trudne w obecnych czasach. Do wyboru mamy mnóstwo możliwości: możemy kodować strony za pomocą grida, flexboxa, floatów, frameworków (czyli tak naprawdę gotowych rozwiązań korzystających z ww. narzędzi) czy nawet - o zgrozo - tabel. Rzecz jasna wybór będzie nie zawsze ten sam, ponieważ strona stronie nie równa i często różne witryny będą wykorzystywały różne konfiguracje.
 Należy jednak podkreślić, że nie zawsze tak było. Nie ma w tym tajemnicy - flexbox czy grid nie należą do starych rozwiązań. Uznajmy że mamy rok 2006. Wtedy kodowanie było trudniejsze. Jedną z metod rozmieszczania elementów na stronie było użycie `position`, o którym dzisiaj mowa.
 
 ### Rola `position`
@@ -27,10 +27,10 @@ Aby zacząć używać tej funkcji CSS należy poznać jej właściwości. Jakie 
 - `fixed`,
 - `sticky` (nad którą prace trwają).
 
-Ponadto, aby operować wykorzystać w pełni możliwości `position` możemy posłużyć się właściwościami `top`, `right`, `bottom`, `left`. Za co odpowiadają? Przede wszystkim za umieszczenie elementu na stronie. One określają odległość od “natywnego“ położenia. 
+Ponadto, aby operować wykorzystać w pełni możliwości `position` możemy posłużyć się właściwościami `top`, `right`, `bottom`, `left`. Za co odpowiadają? Przede wszystkim za umieszczenie elementu na stronie. One określają odległość od “natywnego“ położenia.
 
 Jeżeli nie nadamy żadnej właściwości, to standardową wartością dla `position` będzie `static`. Nie charakteryzuje się on żadnym specjalnym zastosowaniem. Czasami się jej jednak używa - na przykład gdy chcemy aby określony element miał właśnie tą wartość podczas gdy pozostałe mają np.: `fixed`.
-        Elementy które posiadają wartość `absolute` możemy rozmieszczać na całej stronie, niezależnie gdzie się znajduje. Aby wszystko było jasne, przeanalizujmy mały przykład. 
+        Elementy które posiadają wartość `absolute` możemy rozmieszczać na całej stronie, niezależnie gdzie się znajduje. Aby wszystko było jasne, przeanalizujmy mały przykład.
 
 ```html
 <div class="banner absolute">
@@ -62,7 +62,7 @@ Kod CSS:
 }
 ```
 
-Wklejając ten kod w dowolny edytor, na przykład do [codepena](https://radek024.github.io/blog/bykiwkodzie/html/css/strony-www/2017/06/02/zaloz_codepena/) dostaniemy kwadracik umieszczony dokładnie 10 pikseli od góry oraz 150 pikseli od lewej strony ekranu. Warto zauważyć jedną rzecz: `div.banner` posiada `padding: 20px;`, czyli wewnętrzny margines. `position:absolute` nie zwraca na to uwagi - element zostaje umieszczony tam gdzie chce osoba która koduje. Czy to nie potężne narzędzie? 
+Wklejając ten kod w dowolny edytor, na przykład do [codepena](https://radek024.github.io/blog/bykiwkodzie/html/css/strony-www/2017/06/02/zaloz_codepena/) dostaniemy kwadracik umieszczony dokładnie 10 pikseli od góry oraz 150 pikseli od lewej strony ekranu. Warto zauważyć jedną rzecz: `div.banner` posiada `padding: 20px;`, czyli wewnętrzny margines. `position:absolute` nie zwraca na to uwagi - element zostaje umieszczony tam gdzie chce osoba która koduje. Czy to nie potężne narzędzie?
 
 Przy użyciu `relative` nasz element będzie się przemieszczał w odległościach mierzonych od jego standardowego położenia. Jak to działa? Podobnie jak wcześniej, weźmy kolejny fragment kodu.
 
@@ -102,11 +102,11 @@ Z osobistego doświadczenia radzę zwiększać warstwy co 10 - dzięki temu w ra
 
 ### Rola `transform`
 
-Czytający w pewnym momencie mógł się złapać za głowę i pomyśleć coś w stylu 
+Czytający w pewnym momencie mógł się złapać za głowę i pomyśleć coś w stylu
 
 > a od czego mamy `transform` oraz `translate`? Tam jest zdecydowanie łatwiej!
 
-Słusznie - pojęcie tego jak używać transform jest nieco łatwiejsze (a z pewnością ma szersze zastosowanie), ale oba te narzędzia nie są sobie równe. Przede wszystkim `transform` nie ma na celu zmiany położenia elementu na styl tego co `position`. Pierwsze rozwiązanie jest wykorzystywane głównie przy ożywieniu strony - chociażby ruchome paski na samym początku strony to połączenie `transform` oraz `animation`. Aby wykonać takie coś za pomocą `position` konieczna jest ingerencja JavaScript. Tak powstawał na przykład popularny spadający śnieg na wielu stronach. Teraz jest to do wykonania w samym CSS. Wnioski? Odpowiednie użycie `transition` jest wydajniejsze od `position`. O tym dlaczego napisano już między innymi na [sitepoint](https://www.sitepoint.com/atoz-css-translate-vs-position/). 
+Słusznie - pojęcie tego jak używać transform jest nieco łatwiejsze (a z pewnością ma szersze zastosowanie), ale oba te narzędzia nie są sobie równe. Przede wszystkim `transform` nie ma na celu zmiany położenia elementu na styl tego co `position`. Pierwsze rozwiązanie jest wykorzystywane głównie przy ożywieniu strony - chociażby ruchome paski na samym początku strony to połączenie `transform` oraz `animation`. Aby wykonać takie coś za pomocą `position` konieczna jest ingerencja JavaScript. Tak powstawał na przykład popularny spadający śnieg na wielu stronach. Teraz jest to do wykonania w samym CSS. Wnioski? Odpowiednie użycie `transition` jest wydajniejsze od `position`. O tym dlaczego napisano już między innymi na [sitepoint](https://www.sitepoint.com/atoz-css-translate-vs-position/).
 
 ### Środkowanie elementu
 
@@ -134,7 +134,7 @@ Taki zapis wyśrodkowuje element w danym bloku. Aby element został umiejscowion
 
 To jak działa `position` warto wiedzieć. Nauka tej części CSSa nie jest szczególnie trudna, ale wymaga chwili zastanowienia. W razie braku zrozumienia jak ona działa możemy spotkać problemy podczas kodowania strony. Wtedy też zaczynamy działać cuda na kiju, totalnie bez sensu. Korzystajmy z najprostszych rozwiązań! :)
 
-Na koniec linki: 
+Na koniec linki:
 * - [codepen z omawianym przykładem](https://codepen.io/radek024/pen/BPYPqW),
 * - [artykuł: transform vs position](https://www.sitepoint.com/atoz-css-translate-vs-position/),
 * - [position: sticky w praktyce](https://codepen.io/radek024/pen/LBdLrv).

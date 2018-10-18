@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&amp;subset=latin-ext" rel="stylesheet">
         <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+        <link rel="stylesheet" href="https://gist.githubusercontent.com/demisx/025698a7b5e314a7a4b5/raw/d2086c7f59105db4da1ed8d1df8d8586666f66ea/syntax.css">
         <script src="{{site.baseurl}}/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body class="{%if page.url=='/'%}main-page{%elsif page.url=='/wpisy/'%}posts{%elsif page.url contains '20'%}post{%elsif page.url=='/kategorie/'%}category{%elsif page.url=='/omnie'%}about-me{%elsif page.url=='/kontakt/'%}contact-page{%else%}undefinied{%endif%}">
+    <body class="{%if page.url=='/' or page.url contains 'strona'%}main-page{%elsif page.url=='/wpisy/'%}posts{%elsif page.url contains '20'%}post{%elsif page.url=='/kategorie/'%}category{%elsif page.url=='/omnie'%}about-me{%elsif page.url=='/kontakt/'%}contact-page{%else%}undefinied{%endif%}">
