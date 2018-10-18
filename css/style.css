@@ -449,7 +449,6 @@ p.meta img{
 
 .post .content h3:last-of-type::before{
   color: #FF5252;
-
 }
 
 .table-content{
@@ -573,7 +572,7 @@ p.meta img{
   color: #CFD8DC;
 }
 
-  .content:last-of-type .container::after{
+.content:last-of-type .container::after{
   position: static;
   content: "";
   display: block;
@@ -582,6 +581,11 @@ p.meta img{
   height: 20px;
   background-color: #FFF;
   transform: unset;
+}
+
+
+body:not(.main-page) .content:last-of-type .container::after{
+  margin-bottom: 120px;
 }
 
 .container hr{
@@ -938,18 +942,9 @@ body .content .book a:visited{
     flex: 1;
   }
 
-  .footer{
+  .pagination-list, .pager{
     flex-direction: column;
   }
-
-  .footer .social-icons{
-    margin-top: 10px;
-  }
-
-  .icon:before {
-    top: -10px;
-    left: 10px;
-    }
 }
 
 /***************************************************/
