@@ -345,10 +345,8 @@ blockquote::after{
 
 .post .content p:not(.meta) img{
   display: block;
-  width: 35%;
-  transform: translateX(-50%);
-  position: relative;
-  left: 50%;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 p.meta img{
@@ -356,8 +354,9 @@ p.meta img{
 }
 
 .post .content img.thumb-img{
-  max-width: 50%;
-  transform: translateX(50%);
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
   position: static;
 }
 
