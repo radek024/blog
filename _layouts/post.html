@@ -12,9 +12,11 @@ layout: default
         <p>Ten wpis nie posiada podtytułów. Twoja przeglądarka może również nie obsługiwać JavaScript.</p>
       </section>
           {{content}}
+      {%if page.url!='/polecane/'%}
       <p class="meta">
-            <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{page.categories | join }}
+            <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""><time datetime="{{page.date | date_to_xmlschema}}">{{ page.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{page.categories | join }}
       </p>
+      {%endif%}
       {% include author.html %}
       <ul class="pager">
       	{% if page.previous.url %}
@@ -29,7 +31,7 @@ layout: default
           <p>{{page.next.title}}</p>
       	</li>
       	{% endif %}
-      </ul>      
+      </ul>
       {% include comments.html %}
     </div>
   </article>

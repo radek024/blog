@@ -24,6 +24,10 @@ a.nav-link:active {
     background-color: #FFA726;
 }
 
+.nav-list .nav-item .nav-link.important{
+  color: #CD3130;
+}
+
 body:not(.main-page) .content a{
   color: #0aa290;
 }
