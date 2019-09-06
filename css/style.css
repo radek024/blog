@@ -726,7 +726,8 @@ body .content .book a:visited{
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
+  margin-top: 51px;
   bottom: 0;
   z-index: 1;
   font-size: 24px;
@@ -829,6 +830,12 @@ body .content .book a:visited{
     align-items: center;
     vertical-align: middle;
     justify-content: space-around;
+    transition: .2s;
+  }
+
+  .hamburger-menu:hover{
+    cursor: pointer;
+    background-color: #FFC948;
   }
 
   .page-navigation{
@@ -847,7 +854,7 @@ body .content .book a:visited{
   }
 
   .page-navigation .nav-list.open{
-    transform: translateY(80px);
+    transform: translateY(7px);
     transition:opacity 2s, all .5s;
     opacity: 1;
   }
