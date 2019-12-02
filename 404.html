@@ -1,13 +1,25 @@
 ---
 # example 404.md
-title: Nie znaleziono strony
+title: Taka strona nie istnieje!
 layout: default
 permalink: /404.html
+description: You came to wrong neighborhood (⌐ ͡■ ͜ʖ ͡■)
 ---
 
 <article class="content">
   <h2 class="visuallyhidden">{{page.title}}</h2>
   <div class="container">
-    <img src="{{site.baseurl}}/img/404.png" alt="Strony nie znaleziono" style="width: 100%;">
+    <p>
+      Literówka? Niestety, taka strona nie istnieje. Odwiedź jeden z ostatnich wpisów! Może tam znajdziesz to, czego szukasz?
+    </p>
+    <ul>
+      {% for news in site.posts limit: 8%}
+        <li><a href="{{site.baseurl}}{{news.url}}" title="{{news.title}}">{{ news.title }}</a>
+          <p class="news-excerpt">{{news.excerpt}}</p>
+        </li>
+      {% endfor %}
+    </ul>
+    <p>Więcej wpisów znajdziesz w zakładce <a href="{{site.baseurl}}/wpisy">wpisy</a>. Miłego czytania! Pamiętaj również, że zawsze możesz napisać mi <a href="{{site.baseurl}}/kontakt">wiadomość</a>.</p>
+    {% include book.html %}
   </div>
 </article>
