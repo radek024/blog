@@ -304,10 +304,10 @@ blockquote::after{
 }
 
 .read-more{
-  color: #FFF;
+  color: #000;
   font-weight: 700;
   text-decoration: none;
-  background-color: #003459;
+  border-bottom: 3px solid #003459;
 }
 
 .container{
@@ -567,17 +567,18 @@ p.meta img{
 
 .content-heading .content-title{
   font-size: 2em;
-  margin: 0;
-  padding-top: 40px;
-  text-transform: uppercase;
-  overflow: hidden;
+  margin: 40px 0 0;
   width: 100%;
+    border-bottom: 3px solid transparent;
 }
-.content-heading .content-title::after{
-  display: block;
-  border: 2px solid #00695C;
-  content: "";
-  transform: translateX(-30%);
+
+.content-heading .content-title:hover{
+  border-bottom: 3px solid #FFA726;
+}
+
+.content-heading:first-child{
+  padding-top: 5px;
+
 }
 
 .container .example{
@@ -605,10 +606,9 @@ body:not(.main-page) .content:last-of-type .container::after{
 }
 
 .container hr{
-
   height: 0;
-  margin: 40px auto 40px;
-  border-bottom: 5px solid #003459;
+  margin: 40px auto;
+  border-bottom: 1px solid #003459;
 }
 
 dl{
