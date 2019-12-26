@@ -107,8 +107,8 @@ Jest różnica, nie? To robi nam JS. A dokładniej - `modernizr`. To plik z inst
 Jak wyłączyć JS w przeglądarce? Jeżeli mamy zamiar napisać stronę bez jego działania, to fajnie byłoby, aby nie sprawiał trudności poprzez normalnie funkcjonowanie.
 
 Aby JavaScript nie mącił, możemy się go pozbyć na dwa sposoby:
-systemowe wyłączenie,
-usunięcie plików JavaScript z projektu.
+- systemowe wyłączenie,
+- usunięcie plików JavaScript z projektu.
 
 Oczywiście pierwsza metoda jest tą wygodniejszą - wystarczą bowiem dwa kliknięcia. Przechodzimy do *Narzędzi deweloperskich* za pomocą klawisza `F12`, a następnie - nic innego nie robiąc - klikamy `F1`. **Uwaga:** mam włączony ciemny motyw - natywnie jest włączony motyw jasny. W pokazanym oknie konfiguracji, na samym jej dole będzie taka część strony:
 
@@ -123,10 +123,10 @@ Po przejściu na rozdzielczość, gdzie menu zmienia się do postaci klikalnej l
 Jako autor menu wiem, że te rozwija się zaraz po dodaniu klasy `.open` do znacznika `ul`. Czy zatem nie będzie najłatwiej dodać tę klasę i zakończyć temat wyłączonego JavaScript w przeglądarce? Nie, oczywiście że nie! Dodanie klasy sprawi, że menu będzie zawsze otwarte po wejściu na stronę. Niezależnie czy JS jest włączony czy nie, niezależnie również do tego, czy chcemy mieć dostęp do menu. Warto zatem znaleźć złoty środek.
 
 Kiedy uczyłem się podstaw responsywności, menu było pierwszą rzeczą z jaką się konfrontuje rzeczywistość. Było też dość trudne, ponieważ dodawało bardzo dużo co do strony - z kilku elementów w jednej szerokości robi się lista zajmująca część ekranu. Czy to nie będzie wyjściem tutaj? Menu jest jednak wrażliwym elementem, dlatego warto sprawdzić kilka rzeczy:
-czy nowy blok czegoś nie przysłoni?
-czy menu nie ma nadane gdzieś w kodzie `position: fixed`?
-czy warto było szaleć tak?
-czy zastosowany kod nie rozwali strony w dalszych częściach?
+- czy nowy blok czegoś nie przysłoni?
+- czy menu nie ma nadane gdzieś w kodzie `position: fixed`?
+- czy warto było szaleć tak?
+- czy zastosowany kod nie rozwali strony w dalszych częściach?
 
 Pytanie pierwsze jest bardzo zasadne. Każda osoba, która projektuje strony internetowe zdaj sobie sprawę z tego, że przysłonięcie bądź ukrycie czegoś ma duży wpływ na stronę jako-taką. Na ogół nazywamy to [responsywnością](https://radek024.github.io/blog/bykiwkodzie/css/2017/09/15/responsive-web-design/) - ale nie tutaj. Responsywność na ogół to efekt zbioru metod w CSSie, które zmieniają układ strony na wygodny w odbiorze na danym urządzeniu, czasem poprzez ukrycie czegoś. Zanim zaczniemy coś ukrywać, czyniąc stronę bardziej dostępną (czyli działającą bez JavaScript), warto wiedzieć co będzie ukryte. Jako że działamy na przykładzie - nie mamy potrzeby niczego zmieniać, ponieważ poza menu nie mamy treści.
 
