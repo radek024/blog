@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jak mądrzej pisać CSSa, czyli CSS Specitifiy
+title: Jak mądrzej pisać CSSa, czyli CSS Specificity
 author: Radek
 categories: bykiwkodzie css strony-www
 excerpt: Temat teoretycznie prosty. Teoretycznie...

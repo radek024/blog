@@ -42,7 +42,7 @@ if(document.querySelector("body").classList.contains("post")){
   const sectionText = document.createElement("p");
   sectionText.innerHTML = "Tak się składa, że jestem autorem książki dot. frameworku CSS. Omawiam tam tworzenie stron od podstaw z wykorzystaniem Bootstrap 3.";
   const sectionLink = document.createElement("a");
-  sectionLink.href="http://www.goo.gl/sus928";
+  sectionLink.href="https://helion.pl/ksiazki/bootstrap-tworzenie-wlasnych-stylow-graficznych-radoslaw-gryczan,bootgr.htm";
   sectionLink.innerHTML = "Może warto po nią sięgnąć?";
   const sectionImage = document.createElement("img");
   sectionImage.src="/blog/img/bootstrap-icon.png";
