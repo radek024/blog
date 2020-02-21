@@ -179,7 +179,7 @@ blockquote::after{
 
 .welcome-heading::after{
   position: absolute;
-  bottom: -25px;
+  bottom: -32px;
   content: "";
   display: block;
   width: 100%;
@@ -569,7 +569,8 @@ p.meta img{
   font-size: 2em;
   margin: 40px 0 0;
   width: 100%;
-    border-bottom: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  line-height: 1.15;
 }
 
 .content-heading .content-title:hover{
