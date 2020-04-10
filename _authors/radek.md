@@ -8,4 +8,4 @@ social:
     codepen: https://codepen.io/radek024/
     mail: radek002x@gmail.com
 ---
-Radek tworzy strony, czasami skrobie coś na #bykiwkodzie i udziela się w internecie. Poza tym studiuje, zbiera stare monety i słucha dużo muzyki.
+Fan dobrej muzyki, podróży koleją oraz architektury. Założyciel #bykiwkodzie. W wolnym czasie bada swój mały zbiór monet.
