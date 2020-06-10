@@ -981,15 +981,22 @@ body .content .book a:visited{
 /***************************************************/
 /*/                  DRUKOWANIE                  /*/
 /*************************************************/
-
 @media print {
     html{
-        font: normal 400 16px/24px 'Times New Roman', sans-serif;
+        font: normal 400 16px/1.5 'Times New Roman', sans-serif;
         background: #FFF;
     }
 
-    nav, .footer, .book, .meta, #disqus_thread{
+    .container, div[class^="language"]{
+      line-height: 1.5;
+    }
+
+    nav, .footer, .book, .meta, #disqus_thread, .author-metadata .author-social, .pager{
       display: none;
+    }
+
+    .author-metadata .author-img{
+      width: 30%;
     }
 
     a{
