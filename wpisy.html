@@ -4,7 +4,7 @@ title: Wpisy
 description:
   Wpisy to nic innego jak lista wszystkich artykułów napisanych na stronie (czy też blogu). Myślę, że taka forma szukania wpisów będzie wygodniejsza od latania po stronie głównej.
 sitemap:
-  lastmod: 2014-01-23
+  lastmod: 2020-06-10
   priority: 0.7
   changefreq: 'monthly'
   exclude: 'yes'
@@ -14,9 +14,15 @@ sitemap:
     <div class="container">
       <ol reversed>
         {% for news in site.posts %}
-          <li><a href="{{site.baseurl}}{{news.url}}" title="{{news.title}}">{{ news.title }}</a> - <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time></li>
+          <li>
+            <a href="{{site.baseurl}}{{news.url}}" title="{{news.title}}">{{ news.title }}</a>
+            - <time datetime="{%if news.last-modified%}{{news.last-modified}}{%else%}{{news.date | date_to_xmlschema}}{%endif%}">{{ news.date | date: "%d.%m.%Y" }}</time>{% if news.last-modified %},
+             aktualizacja: {{news.last-modified | replace: "-", "."}},
+          {%endif%}</li>
         {% endfor %}
       </ol>
       {% include book.html %}
     </div>
+
+    {%for n in site.posts%}{{n.date | date: "%Y.%m.%d"}}<br>{%endfor%}
 </article>

@@ -11,6 +11,9 @@ layout: default
         <h3>Spis treści</h3>
         <p>Ten wpis nie posiada podtytułów. Twoja przeglądarka może również nie obsługiwać JavaScript.</p>
       </section>
+      {% if page.last-modified %}
+        <strong>Wpis został zaktualizowany {{page.last-modified | replace: "-", "."}}.</strong>
+      {% endif %}
           {{content}}
       {%if page.url!='/polecane/'%}
       <p class="meta">
