@@ -10,7 +10,7 @@ layout: default
         <a href="{{site.baseurl}}{{news.url}}" class="content-url" title="Klinij, aby przeczytać artykuł"><h3 class="content-title">{{news.title}}</h3></a>
       </header>
       <p class="meta">
-        <img src="{{site.baseurl}}/img/author18x18.png" alt=""> {{news.author}} <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time> <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{news.categories | join }}
+        <img src="{{site.baseurl}}/img/author18x18.png" alt=""> {{news.author}} <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time>{%if news.last-modified %}, <img src="{{site.baseurl}}/img/updated18x18.png" alt=""> <time datetime="{{news.last-modified}}">{{ news.last-modified | replace: "-", "." }}</time>{%endif%} <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{news.categories | join }}
       </p>
       <p class="text">{{news.excerpt}}
         <a href="{{site.baseurl}}{{news.url}}" class="read-more" title="Czytaj dalej...">Czytaj dalej...</a>
