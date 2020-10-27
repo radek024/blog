@@ -573,7 +573,7 @@ p.meta img{
   line-height: 1.15;
 }
 
-.content-heading .content-title:hover{
+.content-heading .content-title:hover, .content-heading .content-url:focus .content-title{
   border-bottom: 3px solid #FFA726;
 }
 
@@ -854,7 +854,7 @@ body .content .book a:visited{
     transition: .2s;
   }
 
-  .hamburger-menu:hover{
+  .hamburger-menu:hover, .hamburger-menu:focus{
     cursor: pointer;
     background-color: #FFC948;
   }
