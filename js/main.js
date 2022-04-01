@@ -14,7 +14,7 @@ menu.addEventListener("click", function() {
 function listOfContent(){
 if(document.querySelector("body").classList.contains("post")){
   let tabContent = document.querySelector(".table-content");
-  let subtitles = document.querySelectorAll("h3");
+  let subtitles = document.querySelectorAll("h3:not(.author-name)");
   if (subtitles.length > 1) {
       tabContent.querySelector("p").remove();
   }
