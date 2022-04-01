@@ -2,7 +2,7 @@
 layout: default
 title: Wpisy
 description:
-  Wpisy to nic innego jak lista wszystkich artykułów napisanych na stronie (czy też blogu). Myślę, że taka forma szukania wpisów będzie wygodniejsza od latania po stronie głównej.
+  Lista wszystkich artykułów napisanych na stronie (czy też blogu). Forma szukania wpisów wygodniejsza strony głównej.
 sitemap:
   lastmod: 2020-06-10
   priority: 0.7
@@ -21,8 +21,5 @@ sitemap:
           {%endif%}</li>
         {% endfor %}
       </ol>
-      {% include book.html %}
     </div>
-
-    {%for n in site.posts%}{{n.date | date: "%Y.%m.%d"}}<br>{%endfor%}
 </article>

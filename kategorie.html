@@ -2,7 +2,7 @@
 layout: default
 title: Kategorie
 description:
-  W tym miejscu umieszczone są wszystkie użyte dotąd kategorie aby ułatwić czytanie konkretnych treści.
+  W tym miejscu umieszczone są wszystkie użyte dotąd kategorie - tak, aby ułatwić czytanie konkretnych treści.
 ---
 <article class="content">
   <h2 class="visuallyhidden">{{page.title}}</h2>
@@ -19,7 +19,9 @@ description:
     {% endfor %}
   {% endif %}
   </ul>
-{% assign categories_list = nil %}
+
+
+{% assign categsories_list = nil %}
 
 {% for tag in site.categories %}
   <h3 id="{{ tag[0] }}" class="category-title">{{ tag[0] }}</h3>

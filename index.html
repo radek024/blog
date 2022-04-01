@@ -3,26 +3,34 @@ layout: default
 ---
 <h2 class="visuallyhidden">Ostatnie treści</h2>
 
-<article class="content">
     <div class="container">
       {% for news in paginator.posts %}
-      <header class="content-heading">
-        <a href="{{site.baseurl}}{{news.url}}" class="content-url" title="Klinij, aby przeczytać artykuł '{{news.title}}'"><h3 class="content-title">{{news.title}}</h3></a>
-      </header>
-      <p class="meta">
-        <img src="{{site.baseurl}}/img/author18x18.png" alt=""> {{news.author}} <img src="{{site.baseurl}}/img/calendar18x18.png" alt=""> <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time>{%if news.last-modified %}, <img src="{{site.baseurl}}/img/updated18x18.png" alt=""> <time datetime="{{news.last-modified}}">{{ news.last-modified | replace: "-", "." }}</time>{%endif%} <img src="{{site.baseurl}}/img/categories18x18.png" alt=""> {{news.categories | join }}
-      </p>
-      <p class="text">{{news.excerpt}}
-        <a href="{{site.baseurl}}{{news.url}}" class="read-more" title="Czytaj dalej artykuł '{{news.title}}'">Czytaj dalej...</a>
-      </p>
-      {% if forloop.last == false %}
-        <hr>
-      {% endif %}
+      <article class="news">
+        {% if news.img-thumb %}
+        <img src="{{site.baseurl}}/img/post-thumb/{{news.img-thumb}}" class="news-thumbnail" alt="Grafika przedstawia wprowadzenie do wpisu {{news.title}}">
+        {% endif %}
+        <div class="news-content">
+          <header class="content-heading">
+            <a href="{{site.baseurl}}{{news.url}}" class="content-url" title="Klinij, aby przeczytać artykuł '{{news.title}}'"><h3 class="content-title">{{news.title}}</h3></a>
+          </header>
+          <div class="meta">
+            <span class="meta-author">{{news.author}}</span>, <time datetime="{{news.date | date_to_xmlschema}}">{{ news.date | date: "%d.%m.%Y" }}</time>
+            {%if news.last-modified %}
+              , <time datetime="{{news.last-modified}}">{{ news.last-modified | replace: "-", "." }}</time>
+            {%endif%}
+          </div>
+            
+          <p class="text">{{news.excerpt}}<br>
+            <a href="{{site.baseurl}}{{news.url}}" class="read-more" title="Czytaj dalej artykuł '{{news.title}}'">Czytaj dalej...</a>
+          </p>
+        </div>
+        
+      </article>
       {% endfor %}
     </div>
-</article>
 
 <nav class="pagination-panel">
+  <h3 class="visuallyhidden">Blog - paginacja</h3>
   <div class="container">
     <ul class="pagination-list">
       {% if paginator.previous_page %}
