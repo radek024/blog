@@ -3,6 +3,7 @@ layout: post
 title: Przygotowanie strony do druku
 author: Radek
 categories: css
+excerpt: CSS to nie tylko wygląd strony, ale również wydrukowanych stron internetowych!
 comments: true
 img-thumb: 2017-12-08.png
 ---

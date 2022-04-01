@@ -1,7 +1,10 @@
 {% include header.html %}
 {% include thumbnail.html %}
 {% include nav.html %}
-<main>
-  {{content}}
+<main class="content">
+    <div class="page-content" id="blog-content">
+      {{content}}
+    </div>
+    {% include sidebar.html %}
 </main>
 {% include footer.html %}

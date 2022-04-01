@@ -4,6 +4,8 @@ let navbar = document.querySelector(".page-navigation");
 menu.addEventListener("click", function() {
  let lista = document.querySelector(".nav-list");
  lista.classList.toggle("open");
+ const a11yNav = navbar.getAttribute("aria-expanded");
+ (a11yNav==="false")? navbar.setAttribute("aria-expanded", "true") : navbar.setAttribute("aria-expanded", "false");
  menu.classList.toggle("close-menu");
  navbar.classList.toggle("open");
  }, false);
@@ -18,7 +20,7 @@ if(document.querySelector("body").classList.contains("post")){
   }
   let table = document.createElement("ol");
   table.classList.add("content-list");
-  for (let i = 1; i <= subtitles.length - 2; i++) {
+  for (let i = 1; i <= subtitles.length - 5; i++) {
       let listItem = document.createElement("li");
       let link = document.createElement("a");
       link.href = "#" + subtitles[i].id;
@@ -30,38 +32,7 @@ if(document.querySelector("body").classList.contains("post")){
  }
 }
 
-function replaceBookInfo(){
-if(document.querySelector("body").classList.contains("post")){
-  const content = document.querySelector(".content .container");
-  const section = document.createElement("section");
-  section.classList.add("book");
-  const sectionContent = document.createElement("div");
-  sectionContent.classList.add("about");
-  const sectionTitle = document.createElement("h3");
-  sectionTitle.innerHTML = "Podobają Ci się treści które tworzę?";  sectionTitle.classList.add("title");
-  const sectionText = document.createElement("p");
-  sectionText.innerHTML = "Tak się składa, że jestem autorem książki dot. frameworku CSS. Omawiam tam tworzenie stron od podstaw z wykorzystaniem Bootstrap 3.";
-  const sectionLink = document.createElement("a");
-  sectionLink.href="https://helion.pl/ksiazki/bootstrap-tworzenie-wlasnych-stylow-graficznych-radoslaw-gryczan,bootgr.htm";
-  sectionLink.innerHTML = "Może warto po nią sięgnąć?";
-  const sectionImage = document.createElement("img");
-  sectionImage.src="/blog/img/bootstrap-icon.png";
-  sectionImage.classList.add("book-cover");
-  sectionContent.appendChild(sectionTitle);
-  sectionContent.appendChild(sectionText);
-  sectionContent.appendChild(sectionLink);
-  section.appendChild(sectionContent);
-  section.appendChild(sectionImage);
-  content.appendChild(section);
-
-  const paragraph = document.querySelectorAll(".content .container p");
-  let num = Math.floor((Math.random() * (paragraph.length- 4))+1);
-
-  content.insertBefore(section, paragraph[num]);
- }
-}
 window.addEventListener("DOMContentLoaded", function() {
  toggleMenu();
  listOfContent();
- replaceBookInfo();
 }, false);
