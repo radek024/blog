@@ -14,4 +14,5 @@ Na Liderferencji będę miał przyjemność przybliżyć słuchającym czym jest
 
 ![Informacja dotyczącą zapowiedzianej we wpisie prelecji]({{site.baseurl}}/img/post-img/2022-04-22/liderferencja.jpeg)
 
+Więcej infomacji można znaleźć na [stronie konferencji](http://www.liderferencja.pl/) oraz w [wydarzeniu na Facebooku](https://www.facebook.com/events/527696178668440/535492587888799).
 Zainteresowanych serdecznie zapraszam!
