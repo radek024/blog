@@ -15,7 +15,7 @@ function listOfContent(){
 if(document.querySelector("body").classList.contains("post")){
   let tabContent = document.querySelector(".table-content");
   let subtitles = document.querySelectorAll("h3:not(.author-name)");
-  if (subtitles.length > 1) {
+  if (subtitles.length > 5) {
       tabContent.querySelector("p").remove();
   }
   let table = document.createElement("ol");
