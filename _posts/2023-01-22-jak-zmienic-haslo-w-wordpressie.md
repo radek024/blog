@@ -38,7 +38,7 @@ Po kliknięciu  “Ustaw nowe hasło” wyświetlone zostaje przykładowe silne 
 Pierwszy ze sposobów jest dość oczywisty. Dostęp do konta jest łatwy i szybki. Jeżeli nie mamy możliwości zmiany hasła w ten sposób, możemy przejść do kolejnego sposobu. 
 Przy panelu logowania również mamy możliwość odzyskania hasła. Robimy to za pomocą wejścia w link “Nie pamiętasz hasła?” w panelu logowania. Wówczas otrzymamy takie okno: 
 
-![Grafika przedstawia zmianę hasła za pomocą e-maila w Wordpressie]({{site.baseurl}}/img/post-img/2023-01-22/wordpress-zmian-hasla-uzytkownika.png)
+![Grafika przedstawia zmianę hasła za pomocą e-maila w Wordpressie]({{site.baseurl}}/img/post-img/2023-01-22/wordpress-zmiana-hasla-uzytkownika.png)
 
 Po wpisaniu nazwy użytkownika bądź adresu e-mail powinna przyjść do nas wiadomość z hasłem. 
 Opcja ta nie wydaje mi się zawsze bezpieczna. Jeżeli ktoś włamałby się na nasze konto pocztowe, to bezpośrednio mógłby wejść również na blog/portal. Tę opcję możemy zmodyfikować bardzo szybko. 
