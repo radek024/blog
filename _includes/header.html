@@ -1,23 +1,31 @@
 <!doctype html>
 <html class="no-js" lang="pl">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>
-            {%if page.url contains "wpisy"%}  Wpisy {%elsif page.url contains "kategorie"%} Kategorie {%elsif page.url contains "kontakt"%} Kontakt {%elsif page.url contains "20"%} {{page.title}} {% elsif paginator.page>1 %} Strona {{paginator.page}} {% elsif page.url == "/" %} Start {% else %} {{page.title}} {%endif%} | {{site.title}}</title>
-        <meta name="description" content="{% if page.excerpt.size>0 %}{{page.excerpt | strip_html }}{% else %}{{site.description | strip_html }}{%endif%}">
-        <link rel="icon" href="{{site.baseurl}}/favicon.ico">
-        <meta name="theme-color" content="#003459">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta property="og:image" content="{{site.baseurl}}/img/{%  if page.img-thumb.size>0 %}post-thumb/{{page.img-thumb}}{% else %}/thumbnail.png{% endif %}" />
-        <meta name="keywords" content="{%  if page.keywords %}{{page.keywords}}{% else %}blog, strony www, radek024, tworzenie stron internetowych, porady html css js{% endif %}">
-        <meta name="google-site-verification" content="WzTYiFQSWLnWAPGiH_2dImVVmfZmQr9EHPwgwjuPA58" />
-        <link href='{{site.baseurl}}/feed.xml' rel='alternate' type='application/atom+xml'>
-        <meta name="referrer" content="origin">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{site.baseurl}}/css/style2.css">
-        <script src="{{site.baseurl}}/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body class="{%if page.url=='/' or page.url contains 'strona'%}main-page{%elsif page.url=='/wpisy/'%}posts{%elsif page.layout=='post' or page.url contains 'polecane' %}post{%elsif page.url=='/kategorie/'%}category{%elsif page.url=='/omnie'%}about-me{%elsif page.url=='/kontakt/'%}contact-page{%else%}error{%endif%}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        {%if page.url contains "wpisy"%} Wpisy {%elsif page.url contains "kategorie"%} Kategorie
+        {%elsif page.url contains "kontakt"%} Kontakt {%elsif page.url contains "20"%} {{page.title}}
+        {% elsif paginator.page>1 %} Strona {{paginator.page}} {% elsif page.url == "/" %} Start {% else %}
+        {{page.title}} {%endif%} | {{site.title}}</title>
+    <meta name="description"
+        content="{% if page.excerpt.size>0 %}{{page.excerpt | strip_html }}{% else %}{{site.description | strip_html }}{%endif%}">
+    <link rel="icon" href="{{site.baseurl}}/favicon.ico">
+    <meta name="theme-color" content="#003459">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image"
+        content="{{site.baseurl}}/img/{%  if page.img-thumb.size>0 %}post-thumb/{{page.img-thumb}}{% else %}/thumbnail.png{% endif %}" />
+    <meta name="keywords"
+        content="{%  if page.keywords %}{{page.keywords}}{% else %}blog, strony www, radek024, tworzenie stron internetowych, porady html css js{% endif %}">
+    <meta name="google-site-verification" content="WzTYiFQSWLnWAPGiH_2dImVVmfZmQr9EHPwgwjuPA58" />
+    <link href='{{site.baseurl}}/feed.xml' rel='alternate' type='application/atom+xml'>
+    <meta name="referrer" content="origin">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style2.css">
+    <script src="{{site.baseurl}}/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body
+    class="{%if page.url=='/' or page.url contains 'strona'%}main-page{%elsif page.url=='/wpisy/'%}posts{%elsif page.layout=='post' or page.url contains 'polecane' %}post{%elsif page.url=='/kategorie/'%}category{%elsif page.url=='/omnie'%}about-me{%elsif page.url=='/kontakt/'%}contact-page{%else%}error{%endif%}">
