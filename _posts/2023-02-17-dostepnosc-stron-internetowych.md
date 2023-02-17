@@ -5,7 +5,7 @@ author: Radek
 categories: wcag strony-www
 excerpt: Okoliczności, w których korzystamy z Internetu są różne - portale są ten same. Czy zawsze wygodne dla odbiorcy?
 comments: true
-img-thumb: 2023-02-18.png
+img-thumb: 2023-02-17.png
 ---
 
 Strony internetowe towarzyszą nam codziennie, dlatego też sposób, w jaki działają jest istotny — a dobrą stronę możemy zdefiniować jako szybką, przejrzystą, na temat. Zależy nam przecież na bezpośrednich informacjach, bez niepotrzebnych dodatków. Znalezienie złotego środka nie zawsze jednak jest możliwe, a wynika to między innymi z braku czasu (bo musi być na szybko) czy też chęci zakończenia kolejnego etapu prac — jeżeli działa, to czy warto angażować kolejne siły? Odpowiedź z reguły brzmi nie, ale gdyby istniał jakiś standard, który pozwala na łatwiejsze wdrażanie rzeczy w życie…
