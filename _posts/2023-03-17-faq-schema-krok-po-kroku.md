@@ -12,7 +12,7 @@ faq:
         answer: "Dodanie FAQ Schema zależy od rodzaju narzędzia, które używasz w swoim portalu. Dla Wordpressa można do tego wykorzystać np.: ACF."
     - query:
         question: "Gdzie mogę znaleźć przykładowy JSON z FAQ Schema?"
-        answer: "Przykładowy JSON zawierający FAQ Schema można znaleźć na stronie schema.org, definiującej strukturę takich danych jak FAQ Schema".  
+        answer: "Przykładowy JSON zawierający FAQ Schema można znaleźć na stronie schema.org, definiującej strukturę takich danych jak FAQ Schema."  
 ---
 
 Zarządzanie treściami w internecie bywa trudne. W dobie wszechobecnego nasilania się bodźców należy sięgać po różne narzędzia. Co mają do dyspozycji blogi? Na pewno metod jest kilka:
