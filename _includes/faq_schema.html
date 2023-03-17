@@ -1,0 +1,19 @@
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for item in page.faq %}
+        {
+          "@type": "Question",
+          "name": "{{item.query.question}}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{item.query.answer}}"
+          }
+        }{%if forloop.index != page.faq.size%},{% endif %}
+        {% endfor %}
+        ]
+    }
+  </script>
