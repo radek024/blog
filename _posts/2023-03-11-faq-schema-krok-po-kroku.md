@@ -2,7 +2,7 @@
 layout: post
 title: Jak dodać FAQ Schema do bloga? Poradnik krok po kroku
 author: Radek
-categories: wcag strony-www
+categories: seo strony-www
 excerpt: Poradnik krok po kroku jak dodać elementy rozszerzone do portalu internetowego.
 comments: true
 img-thumb: 2023-03-17.png
