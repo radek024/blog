@@ -112,7 +112,7 @@ Idąc w dalszą konwersację z ChatGPT, mam wiedzę, że nawet poprawiony (a wi�
 
 Posiadając regex, możemy go wykorzystać do wyłapania grafik we wpisie w Jekyllu.
 
-![Regex do wyłapania grafik we wpisie]({{site.baseurl}}/img/post-img/2023-04-14/gpt-klamstwo-2.png)
+![Regex do wyłapania grafik we wpisie - druga próba]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
 
 ChatGPT podaje kod, ale nie spełnia on dodatku (pluginu) do działającego bloga.
 
@@ -145,7 +145,7 @@ Trud skończon. Z poprawą jednej linijki udało się osiągnąć zamierzony efe
 
 Na prostym przykładzie dość obrazowo widać, jak precyzyjnie trzeba określać założenia, które ma spełniać wygenerowany kod. Jako przyczynę serii niepowodzeń nie zrzucam na barki prymitywnego sposobu generowania, ale także braku precyzyjnego opisu — ten mimo wszystko powstaje w trakcie. W efekcie osiągamy zakładany wynik, ale z pewnością łatwiej moglibyśmy to osiągnąć sięgając po gotowe rozwiązania - a te na pewno istnieją. ChatGPT nie udostępni jednak bezpośredniego linka do źródła.  A jeżeli już, to linki mogą nie działać - tak było w tym przypadku.
 
-![Regex do wyłapania grafik we wpisie - druga próba]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
+![Regex do wyłapania grafik we wpisie]({{site.baseurl}}/img/post-img/2023-04-14/gpt-klamstwo-2.png)
 
 Same rozwiązanie jest prymitywne także pod kątem sposobu dodawania atrybutu. Gdyby portal nie był odpowiednio administrowany, a wpisy nie kontrolowane - taki kod mógłby stanowić łatwy przyczółek do trollowania w markdown. Przy obecnych założeniach, gdzie na bloga dodaję wpisy tylko ja, a całość ogranicza mi GitHub, zatem nie mam takich obaw. W przeciwnym razie możliwe byłoby użycie rozwiązań alternatywnych. 
 
