@@ -16,7 +16,7 @@ Sam ChatGPT nie jest też żadną rewolucją w branży AI - jest to kolejny z wi
 
 ChatGPT w chwili pisania artykułu ma wiedzę opartą do roku 2021. Pytania ponad ten czas będą albo mieszanką posiadanej już wiedzy, albo pewnego rodzaju halucynacją.  Odpowiedź na pytanie o ubiegłoroczne (a więc 2022) Oscary jest jawnym kłamstwem:
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/gpt-klamstwo.png)
+![ChatGPT podający niewłaściwą odpowiedź dotyczącą Oscarów]({{site.baseurl}}/img/post-img/2023-04-14/gpt-klamstwo.png)
 
 **ChatGPT nie należy zatem traktować jako sposób na rozwiązanie wszystkich problemów.** Mimo że wygląda rzetelnie i odpowiada jak człowiek — to zlepek pasujących do siebie (według algorytmów) danych.
 
@@ -70,7 +70,7 @@ Zacznijmy od czystego arkusza, zadając wiadomość z zapotrzebowaniem na kod, k
 Napisz kod, który zrealizuje lazyloading na blogu.
 ```
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-0.png)
+![Próba zero realizacji zamierzonego kodu]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-0.png)
 
 Odpowiedź nie jest zadowalająca. Przede wszystkim, już na dzień dobry widzę, że rzecz jest realizowana po stronie JavaScript. Te rozwiązanie mnie nie zadowala, bo widzę, że muszę dodawać klasę do każdego elementu — a w markdown nie jest to wygodne. Ponadto URL grafiki muszę podawać przez atrybut data. To rozwiązanie jest niewygodne pod bloga, który działa na Jekyllu.
 
@@ -80,7 +80,7 @@ Podejście drugie:
 Popraw kod, uwzględniając, że wpis na blogu jest pisany w markdown
 ```
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-1.png)
+![Próba pierwsza realizacji zamierzonego kodu]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-1.png)
 
 I tutaj popełniam pierwszy błąd - wiem, że nie chcę tego rozwiązania w JavaScript, a tego nie zaznaczam. **Określiłem niepełny kontekst.** Dla mnie to rzecz oczywista, ale nie dla ChatGPT. Dodajmy zatem informację o tym, że nie potrzebujemy JS, a blog jest oparty na Jekyllu.
 
@@ -90,7 +90,7 @@ Podaj alternatywne rozwiązanie bez użycia JS, mając na uwadze, że blog jest 
 
 Odpowiedź jest następująca:
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-2.png)
+![Próba druga realizacji zamierzonego kodu]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-2.png)
 
 Nie chcemy zewnętrznych pluginów. **Co więcej, takiego pluginu nie ma.** Wracamy do punktu wyjścia - mamy problem. Na zapytanie:
 
@@ -106,13 +106,13 @@ ChatGPT zwraca informację o możliwości zastosowania JS, a po jej wykluczeniu 
 
 To w takim razie chcemy, aby do każdej grafiki dołączyć taki zapis. Wiemy, że nie stosujemy klasycznego HTMLa oraz nie chcemy realizować tego za pomocą extra klasy czy atrybutu. Ze względu na swoją specyfikę, jesteśmy w stanie wyłapać wszystkie grafiki we wpisach za pomocą regex:
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex.png)
+![Regex, który znajdzie grafiki w formacie markdown na blogu]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex.png)
 
 Idąc w dalszą konwersację z ChatGPT, mam wiedzę, że nawet poprawiony (a więc taki, który np.: uwzględnia formaty plików) może zostać wykorzystany w sposób niezgodny z przeznaczeniem. Jest to jednak warunek brzegowy - rzecz raczej się nie stanie, musiałbym sabotować własnego bloga.
 
 Posiadając regex, możemy go wykorzystać do wyłapania grafik we wpisie w Jekyllu.
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
+![Regex do wyłapania grafik we wpisie]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
 
 ChatGPT podaje kod, ale nie spełnia on dodatku (pluginu) do działającego bloga.
 
@@ -145,7 +145,7 @@ Trud skończon. Z poprawą jednej linijki udało się osiągnąć zamierzony efe
 
 Na prostym przykładzie dość obrazowo widać, jak precyzyjnie trzeba określać założenia, które ma spełniać wygenerowany kod. Na przyczynę serii niepowodzeń nie obwiniam prymitywnego sposobu generowania, ale także brak precyzyjnego opisu — ten mimo wszystko powstaje w trakcie. W efekcie osiągamy zakładany wynik, ale z pewnością łatwiej moglibyśmy to osiągnąć sięgając po gotowe rozwiązania - a te na pewno istnieją. ChatGPT nie udostępni jednak bezpośredniego linka do źródła.  A jeżeli już, to linki mogą nie działać - tak było w tym przypadku.
 
-![Obrazek przedstawia konfigurację pobieranej paczki z initializr]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
+![Regex do wyłapania grafik we wpisie - druga próba]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
 
 Same rozwiązanie jest prymitywne także pod kątem sposobu dodawania atrybutu. Gdyby portal nie był odpowiednio administrowany, a wpisy nie kontrolowane - taki kod mógłby stanowić łatwy przyczółek do trollowania w markdown. Przy obecnych założeniach, gdzie na bloga dodaję wpisy tylko ja, a całość ogranicza mi GitHub, zatem nie mam takich obaw. W przeciwnym razie możliwe byłoby użycie rozwiązań alternatywnych. 
 
