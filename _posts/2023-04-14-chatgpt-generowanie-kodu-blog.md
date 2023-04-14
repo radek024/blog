@@ -147,7 +147,7 @@ Na prostym przykładzie dość obrazowo widać, jak precyzyjnie trzeba określa�
 
 ![Regex do wyłapania grafik we wpisie]({{site.baseurl}}/img/post-img/2023-04-14/gpt-klamstwo-2.png)
 
-Same rozwiązanie jest prymitywne także pod kątem sposobu dodawania atrybutu. Gdyby portal nie był odpowiednio administrowany, a wpisy nie kontrolowane - taki kod mógłby stanowić łatwy przyczółek do trollowania w markdown. Przy obecnych założeniach, gdzie na bloga dodaję wpisy tylko ja, a całość ogranicza mi GitHub, zatem nie mam takich obaw. W przeciwnym razie możliwe byłoby użycie rozwiązań alternatywnych. 
+Same rozwiązanie jest prymitywne także pod kątem sposobu dodawania atrybutu. Gdyby portal nie był odpowiednio administrowany, a wpisy nie kontrolowane - taki kod mógłby stanowić łatwy przyczółek do trollowania w markdown. Przy obecnych założeniach, gdzie na bloga dodaję wpisy tylko ja, a całość ogranicza mi GitHub, nie mam takich obaw. W przeciwnym razie możliwe byłoby użycie rozwiązań alternatywnych. 
 
 Kiedy dodawałem kod do wpisu w markdown, to plugin wyłapał obecność bloku obrazka także w przykładach. Kod wymagał zatem poprawy przed publikacją wpisu - a więc jest skalowalny (w podstawowym stopniu - z wykorzystaniem nokogiri problemu by nie było).
 
