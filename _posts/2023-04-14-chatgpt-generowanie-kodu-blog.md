@@ -112,7 +112,7 @@ Idąc w dalszą konwersację z ChatGPT, mam wiedzę, że nawet poprawiony (a wi�
 
 Posiadając regex, możemy go wykorzystać do wyłapania grafik we wpisie w Jekyllu.
 
-![Regex do wyłapania grafik we wpisie]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
+![Regex do wyłapania grafik we wpisie]({{site.baseurl}}/img/post-img/2023-04-14/gpt-klamstwo-2.png)
 
 ChatGPT podaje kod, ale nie spełnia on dodatku (pluginu) do działającego bloga.
 
