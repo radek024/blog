@@ -1,16 +1,16 @@
 {% assign auth = site.authors | where: "name", page.author %}
 <div class="author-metadata">
- <img src="/{{auth[0].image_path}}" class="author-img" alt="">
+ <img src="/{{auth[0].image_path}}" class="author-img" alt="" width="240" height="240" loading="lazy">
  <div class="about-author">
   <h3 class="author-name">{{auth[0].name}}</h3>
   <div class="author-info">
    <span class="author-login">{{auth[0].login}}</span>
    <ul class="author-social">
-    <li><a href="{{auth[0].social.snap}}"><img src="{{site.baseurl}}/img/snapchat.png" alt="Kliknij, aby przejść do profilu na Snapchacie"></a></li>
-    <li><a href="{{auth[0].social.github}}"><img src="{{site.baseurl}}/img/github.png" alt="Kliknij, aby przejść do profilu na Githubie"></a></li>
-    <li><a href="{{auth[0].social.codepen}}"><img src="{{site.baseurl}}/img/codepen.png" alt="Kliknij, aby przejść do profilu na Codepen"></a></li>
-    <li><a href="{{auth[0].social.linkedin}}"><img src="{{site.baseurl}}/img/linkedin.png" alt="Kliknij, aby przejść do profilu na LinkedIn"></a></li> 
-    <li><a href="mailto:{{auth[0].social.mail}}"><img src="{{site.baseurl}}/img/mail.png" alt="Kliknij, aby wysłać wiadomość e-mail"></a></li> 
+    <li><a href="{{auth[0].social.snap}}"><img src="{{site.baseurl}}/img/snapchat.png" alt="Kliknij, aby przejść do profilu na Snapchacie" width="25" height="25" loading="lazy"></a></li>
+    <li><a href="{{auth[0].social.github}}"><img src="{{site.baseurl}}/img/github.png" alt="Kliknij, aby przejść do profilu na Githubie" width="25" height="25" loading="lazy"></a></li>
+    <li><a href="{{auth[0].social.codepen}}"><img src="{{site.baseurl}}/img/codepen.png" alt="Kliknij, aby przejść do profilu na Codepen" width="25" height="25" loading="lazy"></a></li>
+    <li><a href="{{auth[0].social.linkedin}}"><img src="{{site.baseurl}}/img/linkedin.png" alt="Kliknij, aby przejść do profilu na LinkedIn" width="25" height="25" loading="lazy"></a></li> 
+    <li><a href="mailto:{{auth[0].social.mail}}"><img src="{{site.baseurl}}/img/mail.png" alt="Kliknij, aby wysłać wiadomość e-mail" width="25" height="25" loading="lazy"></a></li> 
    </ul>      
   </div>
   {{auth[0].content}}

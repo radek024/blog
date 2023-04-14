@@ -1,7 +1,7 @@
 <header class="welcome-heading">
   <div class="container">
     <div class="image-thumbnail">
-      <img src="{{site.baseurl}}/img/{%if page.url contains 'wpisy' %}w_posts.png{%elsif page.url contains '20' %}w_article.png{%elsif page.url contains 'kategorie'%}w_categories120x120.png{%elsif page.url contains 'kontakt'%}w_contact.png{%elsif page.url contains 'polecane'%}w_recommended120x120.png{%else%}avek120x120.png{%endif%}" class="deco-img" alt="">
+      <img width="120" height="120" src="{{site.baseurl}}/img/{%if page.url contains 'wpisy' %}w_posts.png{%elsif page.url contains '20' %}w_article.png{%elsif page.url contains 'kategorie'%}w_categories120x120.png{%elsif page.url contains 'kontakt'%}w_contact.png{%elsif page.url contains 'polecane'%}w_recommended120x120.png{%else%}avek120x120.png{%endif%}" class="deco-img" alt="">
     </div>
     <div>
       {% if page.title.size>0 %}<span class="welcome-title">{{page.title}}</span><h1 class="visuallyhidden">{{site.title}}</h1>{% else %} <h1 class="welcome-title">{{site.title}}</h1>{%endif%}
