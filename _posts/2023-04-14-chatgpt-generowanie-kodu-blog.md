@@ -7,7 +7,7 @@ excerpt: Kilka słów odnośnie możliwości wykorzystania ChatGPT w poprawie wy
 comments: true
 img-thumb: 2023-04-14.png
 ---
-Cały Internet już od dłuższego czasu huczy o tym, jak dobrym i niezawodnym narzędziem jest ChatGPT. Czy faktycznie jest czym się interesować? Z pewnością sposób przetwarzania informacji osiągnął kolejny poziom. Odpowiedź możemy dostać bezpośrednio do zadanego pytania. Rodzi to pewne naturalne obawy, ale generalnie jest to krok w ciekawą stronę.
+Cały Internet już od dłuższego czasu huczy o tym, jak dobrym i niezawodnym narzędziem jest ChatGPT. Czy faktycznie jest czym się interesować? Z pewnością sposób przetwarzania informacji osiągnął kolejny poziom. Rodzi to pewne naturalne obawy, ale generalnie jest to krok w ciekawą stronę.
 
 ### Czym jest ChatGPT?
 Dla osób, które do tej pory nie miały okazji korzystać z ChatGPT śpieszę z kilkoma słowami wyjaśnienia. Narzędzie udostępnione przez Open AI pozwala na zadanie pytania w języku naturalnym, a następnie zwrócenie w klarowny sposób (a na żądanie — jeszcze bardziej klarowny) odpowiedzi, która kontekstem będzie zgodna z treścią zawartą w pytaniu. Po drugiej stronie ekranu, mimo że odpowiedź wydaje się być napisana przez człowieka wcale taka nie jest — jest to zbitek pasujących do siebie wyrazów, które powstały jako wynik przetworzenia dużej (i to nie są wielkości rzędu wyłożenia dyskietkami boiska do piłki nożnej, a o wiele większe) ilości tekstów.
@@ -42,19 +42,19 @@ def cezar_szyfruj(tekst, klucz):
 
 Osoby posiadające doświadczenie w programowaniu będą w stanie wyłapać te błędy, początkujący z kolei mogą mieć problem. Przyczynić ku temu może się np.: brak znajomości podstaw kryptografii, tablicy ASCII bądź samego języka programowania. Te rzeczy teoretycznie może nam wytłumaczyć ChatGPT, ale w praktyce nie musi być to informacja rzetelna, szczególnie wraz ze wzrostem poziomu skomplikowania.
 
-Czy w takim razie jest sens wykorzystywania ChatGPT to kodowania? Pewnie, że tak. Przed rozpoczęciem takich działań warto jednak podkreślić:
+Czy w takim razie jest sens wykorzystywania ChatGPT do kodowania? Pewnie, że tak. Przed rozpoczęciem takich działań warto jednak podkreślić:
 
-musisz znać rzeczy związane z tym, co chcesz osiągnąć. Jeżeli nie wiesz, jak ma wyglądać efekt końcowy - AI się nie domyśli.
-kod nie jest napisany w sposób logiczny. Kod może realizować pewną logikę (poprawność trójkąta, szyfr Cezara), ale sam w sobie nie ma kontekstu — sposób zapisu kodu wynika z posiadanych danych, a nie sensu pod kątem np.: dalszej rozbudowy.
-kontekst jest bardzo istotny. Wygenerowanie kodu do aplikacji pisanej od zera (z własnym frameworkiem lub pokątną logiką) będzie trudne, ponieważ ChatGPT nie ma wiedzy na ten temat. Możliwe jest jednak napisanie zapytania SQL do bazy Wordpressa.
+* musisz znać rzeczy związane z tym, co chcesz osiągnąć. Jeżeli nie wiesz, jak ma wyglądać efekt końcowy - AI się nie domyśli.
+* kod nie jest napisany w sposób logiczny. Kod może realizować pewną logikę (poprawność trójkąta, szyfr Cezara), ale sam w sobie nie ma kontekstu — sposób zapisu kodu wynika z posiadanych danych, a nie sensu pod kątem np.: dalszej rozbudowy.
+* kontekst jest bardzo istotny. Wygenerowanie kodu do aplikacji pisanej od zera (z własnym frameworkiem lub pokątną logiką) będzie trudne, ponieważ ChatGPT nie ma wiedzy na ten temat. Możliwe jest jednak napisanie zapytania SQL do bazy Wordpressa.
 
 ### Baza do wykorzystania ChatGPT do poprawy bloga
 
-Posiadając tło jak należy traktować ChatGPT możemy przejść do bloga. Założenie, jakie postawiłem sobie przed praktyką działania to skala działania (nie może być to wielka rzecz), nie może być to także poprawa tekstu. Ponadto zależało mi na realizacji rzeczy, który może obrazować praktyczne wykorzystanie w artykule, który nie ma miliona znaków. Z drugiej strony obowiązują mnie pewne ograniczenia, ponieważ blog jest utrzymywany na GitHubie, więc nie mam możliwości korzystania z niestandardowych bibliotek. Jeżeli jest zatem możliwość ograniczenia się do podstawowych metod, tym lepiej dla mnie.
+Posiadając tło jak należy traktować ChatGPT możemy przejść do bloga. Założenie, jakie postawiłem sobie przed praktyką działania to skala (nie może być to wielka rzecz), nie może być to także poprawa tekstu (zbyt proste). Ponadto zależało mi na realizacji rzeczy, który może obrazować praktyczne wykorzystanie w artykule, który nie ma miliona znaków. Z drugiej strony obowiązują mnie pewne ograniczenia, ponieważ blog jest utrzymywany na GitHubie, więc nie mam dużych możliwości co do korzystania z niestandardowych bibliotek. Jeżeli jest zatem możliwość ograniczenia się do podstawowych metod, tym lepiej dla mnie.
 
 Świadom technicznego wybrakowania bloga pod wieloma kwestiami uznałem, że możemy poprawić ten stan. Jako że artykuły piszę w markdown, to aby zadbać o bloga pod kątem wydajności artykułów musiałbym dodawać sporo ekstra atrybutów. Tego ręcznie robić nie chcę, z pomocą zatem przychodzi ChatGPT.
 
-Jednym z prostych sposobów na zwiększenie wydajności strony internetowej jest zastosowanie lazyloadingu. Jeżeli wpis zawiera sporo grafik (lub innych multimediów - dalej będę stosował uproszczenie), to nie wszystkie musimy ładować bezpośrednio do artykułu - to strata zasobów. Aby dodać lazyloading do wpisu, który tworzę w Jekyllu, to do każdej grafiki musiałbym dopisać `{:loading=”lazy”}` - jest to rzecz, którą można zautomatyzować.
+Jednym z prostych sposobów na zwiększenie wydajności strony internetowej jest zastosowanie lazyloadingu. Jeżeli wpis zawiera sporo grafik (lub innych multimediów - dalej będę stosował uproszczenie do grafiki), to nie wszystkie musimy ładować bezpośrednio do artykułu - to strata zasobów. Aby dodać lazyloading do wpisu, który tworzę w Jekyllu, to do każdej grafiki musiałbym dopisać `{:loading="lazy"}` - jest to zatem rzecz, którą można zautomatyzować.
 
 Na korzyść przychodzi fakt, że Jekyll umożliwia tworzenie dodatkowej zawartości na podstawie własnych warunków. Jest to możliwe za pomocą [Generatorów](https://jekyllrb.com/docs/plugins/generators/). Dodanie reguły odpowiedzialnej za lazyloading będzie w takim razie możliwe.
 
@@ -100,8 +100,8 @@ Takiego pluginu nie ma. Podaj alternatywne rozwiązanie, niezależne od pluginu.
 
 ChatGPT zwraca informację o możliwości zastosowania JS, a po jej wykluczeniu — o użyciu artybutu `loading` w HTMLu. Jesteśmy w kropce? Niekoniecznie. Mamy przecież wiedzę, jak budowany byłby przykładowy zapis używający lazyloading:
 
-```md
-![Alternatywny opis]({{site.src}}){:loading=”lazy”}
+```markdown
+![Alternatywny opis]("URL")
 ```
 
 To w takim razie chcemy, aby do każdej grafiki dołączyć taki zapis. Wiemy, że nie stosujemy klasycznego HTMLa oraz nie chcemy realizować tego za pomocą extra klasy czy atrybutu. Ze względu na swoją specyfikę, jesteśmy w stanie wyłapać wszystkie grafiki we wpisach za pomocą regex:
@@ -126,24 +126,24 @@ Zwrócony jest kod, który… nie działa. Dodaje zapis loading=lazy, ale zaraz 
 
 ```ruby
 module Jekyll
-    class LazyLoadImages < Generator
-      safe true
-      priority :low
-  
-      def generate(site)
-        site.posts.docs.each do |post|
-          post_output = post.content.gsub(/(?<!`)!\[(.*?)\]\((?!.*loading=)(.*?)\)(?!{.*`)/m, "![\\1](\\2){:loading='lazy'}")
-          post.content = post_output
-        end
+  class LazyLoadImages < Generator
+    priority :low
+
+    def generate(site)
+      site.posts.docs.each do |post|
+        content = post.content.dup
+        content.gsub!(/!\[(.*?)\]\((.*?)\)/, '\0{:loading="lazy"}')
+        post.content = content
       end
     end
   end
+end
 ```
 Trud skończon. Z poprawą jednej linijki udało się osiągnąć zamierzony efekt.
 
 ### Wnioski z używania ChatGPT
 
-Na prostym przykładzie dość obrazowo widać, jak precyzyjnie trzeba określać założenia, które ma spełniać wygenerowany kod. Na przyczynę serii niepowodzeń nie obwiniam prymitywnego sposobu generowania, ale także brak precyzyjnego opisu — ten mimo wszystko powstaje w trakcie. W efekcie osiągamy zakładany wynik, ale z pewnością łatwiej moglibyśmy to osiągnąć sięgając po gotowe rozwiązania - a te na pewno istnieją. ChatGPT nie udostępni jednak bezpośredniego linka do źródła.  A jeżeli już, to linki mogą nie działać - tak było w tym przypadku.
+Na prostym przykładzie dość obrazowo widać, jak precyzyjnie trzeba określać założenia, które ma spełniać wygenerowany kod. Jako przyczynę serii niepowodzeń nie zrzucam na barki prymitywnego sposobu generowania, ale także braku precyzyjnego opisu — ten mimo wszystko powstaje w trakcie. W efekcie osiągamy zakładany wynik, ale z pewnością łatwiej moglibyśmy to osiągnąć sięgając po gotowe rozwiązania - a te na pewno istnieją. ChatGPT nie udostępni jednak bezpośredniego linka do źródła.  A jeżeli już, to linki mogą nie działać - tak było w tym przypadku.
 
 ![Regex do wyłapania grafik we wpisie - druga próba]({{site.baseurl}}/img/post-img/2023-04-14/lazyloading-proba-regex-2.png)
 
@@ -151,7 +151,7 @@ Same rozwiązanie jest prymitywne także pod kątem sposobu dodawania atrybutu. 
 
 Kiedy dodawałem kod do wpisu w markdown, to plugin wyłapał obecność bloku obrazka także w przykładach. Kod wymagał zatem poprawy przed publikacją wpisu - a więc jest skalowalny (w podstawowym stopniu - z wykorzystaniem nokogiri problemu by nie było).
 
-Czy łatwiej będzie napisać nową metodę, która będzie odpowiadała za autoryzację użytkownika poprzez token z użyciem ChatGPT? Pewnie tak, ale nie należy zakładać, że metoda będzie napisana w pełni przez model. Na początku wspominałem także o tym, że istnieją alternatywne rozwiązania, takie jak Copilot - to jest model który mógłby lepiej wykonać pracę, jaka została tutaj założona, niemniej dostęp nie jest tak powszechny - stąd użycie ChatGPT jako przykładu.
+Czy łatwiej będzie napisać nową przykładową metodę, która będzie odpowiadała za autoryzację użytkownika poprzez token z użyciem ChatGPT? Pewnie tak, ale nie należy zakładać, że metoda będzie napisana w pełni przez model. Na początku wspominałem także o tym, że istnieją alternatywne rozwiązania, takie jak Copilot - to jest model który mógłby lepiej wykonać pracę, jaka została tutaj założona, niemniej dostęp nie jest tak powszechny - stąd użycie ChatGPT jako przykładu.
 
 ### Podsumowanie
 

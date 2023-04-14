@@ -1,13 +1,13 @@
 module Jekyll
-    class LazyLoadImages < Generator
-      safe true
-      priority :low
-  
-      def generate(site)
-        site.posts.docs.each do |post|
-          post_output = post.content.gsub(/(?<!`)!\[(.*?)\]\((?!.*loading=)(.*?)\)(?!{.*`)/m, "![\\1](\\2){:loading='lazy'}")
-          post.content = post_output
-        end
+  class LazyLoadImages < Generator
+    priority :low
+
+    def generate(site)
+      site.posts.docs.each do |post|
+        content = post.content.dup
+        content.gsub!(/!\[(.*?)\]\((.*?)\)/, '\0{:loading="lazy"}')
+        post.content = content
       end
     end
   end
+end
