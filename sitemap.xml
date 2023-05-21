@@ -8,7 +8,7 @@ sitemap:
   {% for post in site.posts %}
     {% unless post.published == false %}
     <url>
-      <loc>{{site.baseurl}}/blog{{ post.url }}</loc>
+      <loc>{{ site.url }}/blog{{ post.url }}</loc>
       {% if post.sitemap.lastmod %}
         <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif post.date %}
@@ -30,9 +30,9 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" %}
+    {% unless page.sitemap.exclude == "yes" or page.name == "feed.xml" %}
     <url>
-      <loc>{{site.baseurl}}/blog{{ page.url | remove: "index.html" }}</loc>
+      <loc>{{ site.url }}/blog{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
         <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
       {% elsif page.date %}
@@ -43,7 +43,7 @@ sitemap:
       {% if page.sitemap.changefreq %}
         <changefreq>{{ page.sitemap.changefreq }}</changefreq>
       {% else %}
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
       {% endif %}
       {% if page.sitemap.priority %}
         <priority>{{ page.sitemap.priority }}</priority>
