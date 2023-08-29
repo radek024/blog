@@ -3,7 +3,7 @@ layout: post
 title: Kodowanie maili - 5 sposobów na to, aby nie zrezygnować w połowie ich pisania
 author: Radek
 categories: strony-www email
-excerpt: Też na kolosie z matmy przyjmowaliście uproszczenie pi=5?
+excerpt: Czy możliwe jest kodowanie czegokolwiek w 2023 bez użycia grida czy flexboxa?
 comments: true
 img-thumb: 2023-08-28.png
 faq:
