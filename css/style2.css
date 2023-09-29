@@ -1408,3 +1408,32 @@ body:not(.main-page) .categories-list .category-item a:visited {
 }
 
 /* Other major browsers */
+
+.content-note-box {
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  background: #dee3ed;
+  --link: #046762;
+  --link-visited: #024540;
+}
+
+.content-note-box .content-note-title {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  color: #5e636e;
+}
+
+.content-note-box.note-alert {
+  border: 2px solid var(--secondary);
+  background: #ffeed7;
+}
+
+.content-note-box.note-warning {
+  border: 2px solid var(--alert);
+  background: #fcecee;
+}
