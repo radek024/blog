@@ -58,7 +58,7 @@ Via ponadto stara się o komfort dbania z sieci - pozwala na włączenie trybu n
 
 Idąc dalej: jedna z funkcji pozwala na zobaczenie strony w zwyczajnym trybie przeglądania. Następnie mamy możliwość zobaczenia strony w trybie pełnoekranowym. Nie jest to nic odkrywczego - Chrome również udostępnia takie narzędzia.
 
-Bardzo ciekawą w Via (również dostępną od całkiem niedawna w Chrome - w Operze Mini była od zarania dziejów) jest możliwość zapisywania stron. Za czasów kiedy Nokia była jeszcze dobrze działającą marką była to moja ulubiona funkcja Opery - to właśnie tam zapisywałem ciekawe strony oraz artykuły. Teraz używam do tego [czytnika RSS](https://radek024.github.io/blog/offtop/strony-www/2017/08/18/czytnik-kanalow/). Uważaj jednak że zapisywanie stron nadal bardzo dobrze się sprawdza - szczególnie przy szkolnych sprawdzianach i klasówkach, kiedy mamy najważniejszą wiedzę na jakiejś stronie WWW, a nie mamy pewności co do swojej wiedzy. ( ͡° ͜ʖ ͡°)
+Bardzo ciekawą w Via (również dostępną od całkiem niedawna w Chrome - w Operze Mini była od zarania dziejów) jest możliwość zapisywania stron. Za czasów kiedy Nokia była jeszcze dobrze działającą marką była to moja ulubiona funkcja Opery - to właśnie tam zapisywałem ciekawe strony oraz artykuły. Teraz używam do tego [czytnika RSS]({{site.baseurl}}/wpisy/czytnik-kanalow/). Uważaj jednak że zapisywanie stron nadal bardzo dobrze się sprawdza - szczególnie przy szkolnych sprawdzianach i klasówkach, kiedy mamy najważniejszą wiedzę na jakiejś stronie WWW, a nie mamy pewności co do swojej wiedzy. ( ͡° ͜ʖ ͡°)
 
 Jeżeli odwiedzamy jakąś stronę nadzwyczaj często możemy utworzyć jej skrót na pulpicie - a jeżeli dodamy tego tryb pełnoekranowy, to w sumie otrzymamy coś na styl niezależnej aplikacji w telefonie.
 

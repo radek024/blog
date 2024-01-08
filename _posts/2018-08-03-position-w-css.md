@@ -62,7 +62,7 @@ Kod CSS:
 }
 ```
 
-Wklejając ten kod w dowolny edytor, na przykład do [codepena](https://radek024.github.io/blog/bykiwkodzie/html/css/strony-www/2017/06/02/zaloz_codepena/) dostaniemy kwadracik umieszczony dokładnie 10 pikseli od góry oraz 150 pikseli od lewej strony ekranu. Warto zauważyć jedną rzecz: `div.banner` posiada `padding: 20px;`, czyli wewnętrzny margines. `position:absolute` nie zwraca na to uwagi - element zostaje umieszczony tam gdzie chce osoba która koduje. Czy to nie potężne narzędzie?
+Wklejając ten kod w dowolny edytor, na przykład do [codepena]({{site.baseurl}}/wpisy/zaloz_codepena/) dostaniemy kwadracik umieszczony dokładnie 10 pikseli od góry oraz 150 pikseli od lewej strony ekranu. Warto zauważyć jedną rzecz: `div.banner` posiada `padding: 20px;`, czyli wewnętrzny margines. `position:absolute` nie zwraca na to uwagi - element zostaje umieszczony tam gdzie chce osoba która koduje. Czy to nie potężne narzędzie?
 
 Przy użyciu `relative` nasz element będzie się przemieszczał w odległościach mierzonych od jego standardowego położenia. Jak to działa? Podobnie jak wcześniej, weźmy kolejny fragment kodu.
 

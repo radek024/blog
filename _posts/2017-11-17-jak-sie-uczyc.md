@@ -16,7 +16,7 @@ Przede wszystkim należy zacząć od tego, co chcemy się nauczyć. Inaczej pode
 
 Przed podejściem do nauki należy przyjąć jakiś format uczenia się. Jak wspominałem, rozwiązywanie równań kwadratowych a malowanie ścian raczej się różni od siebie - więc sposób na naukę powinien być również inny.
 
-Jako naukę czegoś praktycznego wezmę pod uwagę naukę [preprocesorów](https://radek024.github.io/blog/css/strony-www/2017/07/28/preprocesory-css-opis/). Można je poznać natychmiast po zaczęciu tworzeniu stron internetowych, ale przyniesie to za sobą negatywne efekty. Brak wielu funkcji w CSS może okazać się bolesne w razie potrzeby edytowania zwykłego pliku styli. Poza tym warto wiedzieć co można robić w preprocesorze, a co w CSS. Pamiętajmy też, że nie istnieje jeden preprocesor, a bez znajomości CSSa będzie naprawdę trudno przenieść się z np.: Stylusa do PostCSS. Można wyciągnąć jeden wniosek: taka nauka totalnie nie ma sensu.
+Jako naukę czegoś praktycznego wezmę pod uwagę naukę [preprocesorów]({{site.baseurl}}/wpisy/preprocesory-css-opis/). Można je poznać natychmiast po zaczęciu tworzeniu stron internetowych, ale przyniesie to za sobą negatywne efekty. Brak wielu funkcji w CSS może okazać się bolesne w razie potrzeby edytowania zwykłego pliku styli. Poza tym warto wiedzieć co można robić w preprocesorze, a co w CSS. Pamiętajmy też, że nie istnieje jeden preprocesor, a bez znajomości CSSa będzie naprawdę trudno przenieść się z np.: Stylusa do PostCSS. Można wyciągnąć jeden wniosek: taka nauka totalnie nie ma sensu.
 
 Teoria pozwala nam na osiągnięcie wyników praktycznych. Dlatego uważam, że nie warto brać się za coś bez poznania jakichkolwiek podstaw. Analogicznie do preprocesorów - musimy mieć jakiś zakres wiedzy z używania CSSa, aby móc logicznie podejść do rozwiązań w postaci SCSS czy LESS. Dlatego też **zanim zaczniemy działać, uważam że warto przygotować się do takiego działania poprzez naukę teorii**. Tylko w jaki sposób?
 
@@ -34,7 +34,7 @@ Czy nie jest jednak tak, że równie dobrze możemy czytać i analizować artyku
 
 Uważam że blogi oraz książki pełnią ważną funkcję w trakcie nauki, ale przyswojenie treści, które są prezentowane powinny być możliwie łatwe w odbiorze. Inaczej tekst może okazać się zbyt trudny do przeczytania “na raz”, lub w dłuższym przedziale czasowym. Ponadto, aby zobaczyć rzeczywisty rezultat działań autora należy pisać kod lub bardzo szczegółowo go analizować(co na dłuższą metę jest trudne) wraz z czytaniem. Z drugiej strony warto mieć na uwadze, że dzięki takim działaniom przyswojona wiedza płynącą z publikacji jest później łatwiejsza w zastosowaniu i wytłumaczeniu dla drugiej osoby.
 
-Osobiście sam staram się dużo czytać i używam do tego [czytnika RSS](https://radek024.github.io/blog/offtop/strony-www/2017/08/18/czytnik-kanalow/). Czytam głównie dla rozrywki, a nie dla uczenia się. Ważnym aspektem tego całego procesu się jest znajomość środowiska, a czytanie różnego rodzaju artykułów czy książek pozwala mi na poznanie nowych pojęć oraz trendów panujących w branży. Nauka wszak sama w sobie nie polega na wykuciu jakiejś rzeczy. :)
+Osobiście sam staram się dużo czytać i używam do tego [czytnika RSS]({{site.baseurl}}/wpisy/czytnik-kanalow/). Czytam głównie dla rozrywki, a nie dla uczenia się. Ważnym aspektem tego całego procesu się jest znajomość środowiska, a czytanie różnego rodzaju artykułów czy książek pozwala mi na poznanie nowych pojęć oraz trendów panujących w branży. Nauka wszak sama w sobie nie polega na wykuciu jakiejś rzeczy. :)
 
 ### Fora internetowe
 

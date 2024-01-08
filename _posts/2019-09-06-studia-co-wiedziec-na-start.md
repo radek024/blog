@@ -55,7 +55,7 @@ Czasem zdarzy się, że problemy dotyczą całego roku. Wtedy takie sprawy zała
 
 Warto też pomagać sobie wzajemnie - tak po prostu. Wspólna nauka jest bardzo efektywna, a przy okazji można wymienić się problemami napotkanymi podczas dotychczasowego przygotowywania się. Wszak jedna, dwie, trzy głowy - to nie jedna. Często nieopisanym źródłem pomocy oraz wiedzy będą osoby z starszych roczników. Jeżeli tylko nadarzy się okazja - warto zapytać o jakiś przedmiot.
 
-Pomocą służą nie tylko koledzy, prowadzący i uczelnia, ale i firmy. O profitach płynących z bycia studentem pisałem w osobnym wpisie, do którego zaprasza - [klik](https://radek024.github.io/blog/offtop/nauka/2018/11/30/darmowe-programy-studenci/).
+Pomocą służą nie tylko koledzy, prowadzący i uczelnia, ale i firmy. O profitach płynących z bycia studentem pisałem w osobnym wpisie, do którego zaprasza - [klik]({{site.baseurl}}/wpisy/darmowe-programy-studenci/).
 
 ### Podsumowanie
 Studia jak widać nie są takie straszne. Pierwszy miesiąc jest najgorszy - ale polega on na połapaniu się, jak wyglądają studia. Pozostaje tylko śpiewać: *Vivat Academia, vivant professores!* :D

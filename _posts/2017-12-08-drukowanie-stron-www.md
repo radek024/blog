@@ -42,7 +42,7 @@ Jak doskonale wiemy, responsywność strony internetowej otrzymujemy poprzez zas
 }
 ```
 
-W oparciu o to będziemy tworzyli wygląd naszego drukowanego artykułu. Aby było łatwiej sprawdzić efekty pracy, opierać będziemy się o jeden z artykułów - niech to będzie [pierwszy wpis na #bykiwkodzie](https://radek024.github.io/blog/offtop/2017/05/19/hello_world/). Posiada on dużo różnego rodzaju treści jeżeli idzie o kod: jest cytat, spis treści, linki, pogrubienia i tak dalej. Ponadto nie jest bardzo obszerny, dzięki czemu nie będziemy musieli żmudnie przewijać kilku stron pod drukowanie.
+W oparciu o to będziemy tworzyli wygląd naszego drukowanego artykułu. Aby było łatwiej sprawdzić efekty pracy, opierać będziemy się o jeden z artykułów - niech to będzie [pierwszy wpis na #bykiwkodzie]({{site.baseurl}}/wpisy/hello_world/). Posiada on dużo różnego rodzaju treści jeżeli idzie o kod: jest cytat, spis treści, linki, pogrubienia i tak dalej. Ponadto nie jest bardzo obszerny, dzięki czemu nie będziemy musieli żmudnie przewijać kilku stron pod drukowanie.
 
 Aby otrzymać obraz tego, jak będzie wyglądała nasza wydrukowana witryna wystarczy kliknąć `ctrl+p`. Nadmienię, że używam przeglądarki Chrome.
 
@@ -107,7 +107,7 @@ Tutaj znowu mogą narzucić się pytania:
 - Skąd ten drugi zapis przy `content`?
 - Dlaczego `inline-block`?
 
-Zaczynając od `!important` - weźmy pod uwagę, że strona wymaga często specyficznego dostępu do danych właściwości. Czy musimy się o to martwić kiedy konwertujemy stronę do druku? Raczej niekoniecznie... ale pamiętajmy o tym, że strona tak czy siak musi być skalowalna. Co jeżeli pojawi się odnośnik, który będzie należało podkreślić? Taki zapis bezpośrednio odnoszący się do linków będzie zdecydowanie łatwiejszy w zastosowaniu, ale jak już wiemy - niesie za sobą wady. Drugie pytanie jest raczej zbędne i należałoby po prostu dokładnie przeanalizować kod - za pomocą [pseudobloków](https://radek024.github.io/blog/bykiwkodzie/css/2017/05/19/pseudoklasy_oraz_pseudoelementy/) utworzone zostały linki znajdujące się pod linkiem. `inline-block` natomiast pozwala na swodobne przemieszczenie się linku - jeżeli jest za duży to przechodzi do kolejnej linii i nie *ciągnie* za sobą treści oryginalnej linku.
+Zaczynając od `!important` - weźmy pod uwagę, że strona wymaga często specyficznego dostępu do danych właściwości. Czy musimy się o to martwić kiedy konwertujemy stronę do druku? Raczej niekoniecznie... ale pamiętajmy o tym, że strona tak czy siak musi być skalowalna. Co jeżeli pojawi się odnośnik, który będzie należało podkreślić? Taki zapis bezpośrednio odnoszący się do linków będzie zdecydowanie łatwiejszy w zastosowaniu, ale jak już wiemy - niesie za sobą wady. Drugie pytanie jest raczej zbędne i należałoby po prostu dokładnie przeanalizować kod - za pomocą [pseudobloków]({{site.baseurl}}/wpisy/pseudoklasy_oraz_pseudoelementy/) utworzone zostały linki znajdujące się pod linkiem. `inline-block` natomiast pozwala na swodobne przemieszczenie się linku - jeżeli jest za duży to przechodzi do kolejnej linii i nie *ciągnie* za sobą treści oryginalnej linku.
 
 Jeżeli jeszcze raz spojrzymy na zrzut, widzimy tam charakterystyczne dla nagłówków kreski oraz dużą przestrzeń. Czy te cechy są konieczne? Usuńmy je:
 

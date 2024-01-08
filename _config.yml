@@ -9,7 +9,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-permalink: pretty
+permalink: /wpisy/:title/
 paginate_path: /strona-:num/
 collections:
   authors:

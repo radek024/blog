@@ -90,7 +90,7 @@ Do zmiany hasła użyliśmy funkcji MD5(). Jest to algorytm szyfrujący dane. Wi
 Jeżeli nadal nie możesz zalogować się na konto, zweryfikuj, czy prefix bazy (w moim przypadku jest natywny - `wp`) się zgadza. Warto zwrócić uwagę na nawiasy, słowa kluczowe oraz apostrofy — literówki się zdarzają. Jakimś cudem coś mogło się stać z bazą danych — wówczas masz kopię zapasową. Prawda? :D
 
 ### Zmiana hasła poprzez WP-CLI
-WP-CLI jest bardzo wygodnym narzędziem dla osób płynnie poruszających się w terminalu. Stąd też nie będę rozpisywał tej sekcji. Jeżeli nie wiesz czym jest `sudo`, `cd`, `mv` albo `grep` to prawdopodobnie nie poradzisz sobie z Wordpressem w konsoli. Ciekawy jednak może być artykuł dotyczący mojej opinii co do codziennego korzystania z Linuxa, do którego przeczytania zachęcam: [Linux jako system na co dzień](https://radek024.github.io/blog/offtopic/linux/2019/11/22/linux-system-na-co-dzien/).
+WP-CLI jest bardzo wygodnym narzędziem dla osób płynnie poruszających się w terminalu. Stąd też nie będę rozpisywał tej sekcji. Jeżeli nie wiesz czym jest `sudo`, `cd`, `mv` albo `grep` to prawdopodobnie nie poradzisz sobie z Wordpressem w konsoli. Ciekawy jednak może być artykuł dotyczący mojej opinii co do codziennego korzystania z Linuxa, do którego przeczytania zachęcam: [Linux jako system na co dzień]({{site.baseurl}}/wpisy/linux-system-na-co-dzien/).
 Po zainstalowaniu WP-CLI należy przejść do katalogu z Wordpressem, a następnie użyć komendy, która pozwoli na udostępnienie listy użytkowników: 
 ```
 wp user list

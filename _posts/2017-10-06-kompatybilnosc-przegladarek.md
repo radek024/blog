@@ -128,7 +128,7 @@ Dalsze style będą łatwe do zrozumienia, więc po prostu je zarzucę:
 
 W taki sposób zrobiliśmy menu. Ale czy na pewno?
 
-Podczas tworzenia zapomniałem o bardzo ważnej rzeczy - nie wyczyściłem `float:left`, przez co później mogę mieć problemy z innymi elementami strony. Przykładowy `cleafix` - bo tak to się nazywa - zrobiłem analogicznie jak w [tym wpisie](https://radek024.github.io/blog/bykiwkodzie/css/2017/05/19/pseudoklasy_oraz_pseudoelementy/).
+Podczas tworzenia zapomniałem o bardzo ważnej rzeczy - nie wyczyściłem `float:left`, przez co później mogę mieć problemy z innymi elementami strony. Przykładowy `cleafix` - bo tak to się nazywa - zrobiłem analogicznie jak w [tym wpisie]({{site.baseurl}}/wpisy/pseudoklasy_oraz_pseudoelementy/).
 
 ``` css
 .menu-list::after{
@@ -138,7 +138,7 @@ Podczas tworzenia zapomniałem o bardzo ważnej rzeczy - nie wyczyściłem `floa
 }
 ```
 
-OK. I tak oto zrobiliśmy proste menu. Teraz zadbajmy o jego [responsywność](https://radek024.github.io/blog/bykiwkodzie/css/2017/09/15/responsive-web-design/):
+OK. I tak oto zrobiliśmy proste menu. Teraz zadbajmy o jego [responsywność]({{site.baseurl}}/wpisy/responsive-web-design/):
 
 ``` css
 @media screen and (max-width: 600px){

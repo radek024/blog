@@ -38,7 +38,7 @@ Często wraz z mailem wysyła się jakieś pliki. Ich nazwa jest równie ważna 
 
 ### Piractwo
 
-Fałszywe oprogramowanie nigdy nie było i nie będzie dobrą alternatywą. Pobierając pirackie wersje gier oraz programów ściągamy na siebie ryzyko wirusów i zbędnego oprogramowania. Osoby uczące się mają łatwiej - wspominałem o tym [tutaj](https://radek024.github.io/blog/offtop/nauka/2018/11/30/darmowe-programy-studenci/). Czy osoby pracujące są zatem wykluczone? Pewnie że nie! Mnóstwo firm wydłużyło trialowe wersje swoich produktów nawet do 90 dni. To w jakiś sposób stanowi zabezpieczenie dla każdego, kto pracuje przy drogich aplikacjach. Pamiętajmy również o wielu alternatywach, które są tańsze bądź zupełnie darmowe.
+Fałszywe oprogramowanie nigdy nie było i nie będzie dobrą alternatywą. Pobierając pirackie wersje gier oraz programów ściągamy na siebie ryzyko wirusów i zbędnego oprogramowania. Osoby uczące się mają łatwiej - wspominałem o tym [tutaj]({{site.baseurl}}/wpisy/darmowe-programy-studenci/). Czy osoby pracujące są zatem wykluczone? Pewnie że nie! Mnóstwo firm wydłużyło trialowe wersje swoich produktów nawet do 90 dni. To w jakiś sposób stanowi zabezpieczenie dla każdego, kto pracuje przy drogich aplikacjach. Pamiętajmy również o wielu alternatywach, które są tańsze bądź zupełnie darmowe.
 
 Taak, niby wszystko się zgadza, ale co z zestawem biurowym? Drogi czytelniku, zdradzę Ci mały sekret. Microsoft Office to nie jedyne rozwiązanie! Jeżeli ktoś preferuje programy desktopowe, są wyjścia takie jak Open Office, Libre Office czy ONLYOFFICE. Na rynku jest mnóstwo innych rozwiązań. Osobiście od ponad czterech lat używam Google Docs i jestem bardzo zadowolony. To, w jaki sposób pakiet od Google’a jest zintegrowany z pozostałymi usługami sprawia, że operacje na tej platformie są o wiele łatwiejsze względem innych ofert na rynku.
 Piractwo w 2020 jest złym rozwiązaniem, serio.
@@ -53,7 +53,7 @@ Dzień dobry zapominalscy!
 
 Wszyscy mamy teraz mnóstwo spraw na głowie. Pamiętanie o wszystkich jest bardzo trudne, tym bardziej że codzienna rutyna została mocno zachwiana. Na pomoc wychodzą kalendarze. Nie używasz? Najwyższa pora!
 
-Osobiście kalendarza w formie cyfrowej używam od ponad siedmiu lat. Dzięki temu znacznie mniej mam na głowie. Obecnie skutecznie przypomina mi o terminach oddania prac na studia, spotkaniach czy urodzinach. Ilekroć używam telefonu, to widget przypomina mi o czymś, co nadchodzi. Jeżeli sprawa dotyczy dużej grupy osób, to kalendarz udostępniam i nie muszę przypominać o czymś ważnym (chociażby terminy egzaminów podczas [sesji](https://radek024.github.io/blog/offtop/nauka/2019/09/06/studia-co-wiedziec-na-start/)).
+Osobiście kalendarza w formie cyfrowej używam od ponad siedmiu lat. Dzięki temu znacznie mniej mam na głowie. Obecnie skutecznie przypomina mi o terminach oddania prac na studia, spotkaniach czy urodzinach. Ilekroć używam telefonu, to widget przypomina mi o czymś, co nadchodzi. Jeżeli sprawa dotyczy dużej grupy osób, to kalendarz udostępniam i nie muszę przypominać o czymś ważnym (chociażby terminy egzaminów podczas [sesji]({{site.baseurl}}/wpisy/studia-co-wiedziec-na-start/)).
 
 ![Obrazek przedstawia interfejs Kalendarza Google]({{site.baseurl}}/img/post-img/2020-04-10/wyglad-kalendarza.png)
 

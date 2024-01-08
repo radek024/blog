@@ -24,7 +24,7 @@ Dobrze, gradienty gradientami, ale co to tak naprawdę jest? Najłatwiej ujmują
 
 Aby jednak się nie rozpędzać, warto podkreślić, że mamy dwa rodzaje gradientów w CSS, to jest **liniowy**(`linear-gradient`) oraz **promieniowy**(`radial-gradient`). Jak wygląda przykładowy zapis?
 
-Duża część kodu jest zrealizowana za pomocą [codepena](https://radek024.github.io/blog/bykiwkodzie/html/css/strony-www/2017/06/02/zaloz_codepena/): kliknij [tutaj, aby przejść](https://codepen.io/radek024/pen/gyKavo).
+Duża część kodu jest zrealizowana za pomocą [codepena]({{site.baseurl}}/wpisy/zaloz_codepena/): kliknij [tutaj, aby przejść](https://codepen.io/radek024/pen/gyKavo).
 
 ### Gradient liniowy
 

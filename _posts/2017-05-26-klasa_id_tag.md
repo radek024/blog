@@ -116,7 +116,7 @@ Stylizowanie poprzez atrybuty jest całkiem rzadko stosowane. Dotyczy ono głów
 
 ### Podsumowanie
 
-Osobiście gorąco polecam i zalecam stosowanie klas. Jest to rozwiązanie najlepsze spośród dostępnych. Czasami jednak łatwiej jest zastosować np.: style inline (często w motywach do CMS korzysta się z artybutu `style`) i nie ma problemu, aby ich użyć - ale pamiętajmy, aby jak największą całość trzymać w osobnym pliku. Jeżeli dodamy do tej kwestii [pseudobloki i pseudoklasy](https://radek024.github.io/blog/bykiwkodzie/css/2017/05/19/pseudoklasy_oraz_pseudoelementy/) otrzymamy wtedy podstawę obecnego stylizowania stron internetowych.
+Osobiście gorąco polecam i zalecam stosowanie klas. Jest to rozwiązanie najlepsze spośród dostępnych. Czasami jednak łatwiej jest zastosować np.: style inline (często w motywach do CMS korzysta się z artybutu `style`) i nie ma problemu, aby ich użyć - ale pamiętajmy, aby jak największą całość trzymać w osobnym pliku. Jeżeli dodamy do tej kwestii [pseudobloki i pseudoklasy]({{site.baseurl}}/wpisy/pseudoklasy_oraz_pseudoelementy/) otrzymamy wtedy podstawę obecnego stylizowania stron internetowych.
 
 
 Do całości dorzucam jeszcze link(i):

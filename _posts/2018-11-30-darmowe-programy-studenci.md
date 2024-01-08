@@ -52,7 +52,7 @@ Doskonale sobie zdajemy sprawę z tego, że Internet jest potrzebny na studiach.
 Konto na eduroam zakłada się raz. Tutaj znowu wszystko zależy od uczelni: na uczelni A dostęp będzie zapewniony poprzez wyłącznie konfigurację loginu i hasła, na uczelni B - należało będzie się trochę natrudzić. Ale naprawdę warto - jest to bardzo dobrej jakości Internet. Jeżeli mieszkamy wystarczająco blisko uczelni(po drugiej stronie ulicy, czy w akademiku) nie musimy się martwić o połączenie z siecią. Eduroam świetnie sprawdzi się również w podróży po kraju, gdzie Internet nie zawsze musi śmigać, a jest potrzebny. Moje konto - założone w Lublinie - nie miało problemu aby połączyć się z tą samą siecią w Krakowie. A tylko przechodziłem obok uczelni!
 
 
-Niestety, to usługa wyłącznie dla studentów. Innym mogę serdecznie polecić [Aero2](https://radek024.github.io/blog/offtop/2018/06/15/aero2-darmowy-internet/), o którym wpis również widnieje na #bykiwkodzie.
+Niestety, to usługa wyłącznie dla studentów. Innym mogę serdecznie polecić [Aero2]({{site.baseurl}}/wpisy/aero2-darmowy-internet/), o którym wpis również widnieje na #bykiwkodzie.
 
 ### Oprogramowanie firmy Autodesk
 

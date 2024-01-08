@@ -24,9 +24,9 @@ W CSSie jest mnóstwo różnego rodzaju możliwości wywoływania elementów cel
 - poprzez klasy - znak: `.`,
 - poprzez znaczniki - czyli `a`, `ul`, i mnóstwo innych,
 - poprzez atrybuty - fajna sprawa! Za pomocą `[href*=’radektynudziarzu’]` można ukryć wszystkie linki zawierające taką frazę,
-- poprzez pseudoklasy oraz pseudobloki - o tym pisałem [na blogu dawno temu](https://radek024.github.io/blog/bykiwkodzie/css/2017/05/19/pseudoklasy_oraz_pseudoelementy/).
+- poprzez pseudoklasy oraz pseudobloki - o tym pisałem [na blogu dawno temu]({{site.baseurl}}/wpisy/pseudoklasy_oraz_pseudoelementy/).
 
-Czym się różni klasa od id? Czy są różnice w znacznikach a klasach? O tym też pisałem! Blog co prawda zamienia się w małe kółko wzajemnej adoracji - ale czy nie fajnie mieć wszystko pod ręką? [Tutaj więcej informacji](https://radek024.github.io/blog/strony-www/css/2017/05/26/klasa_id_tag/).
+Czym się różni klasa od id? Czy są różnice w znacznikach a klasach? O tym też pisałem! Blog co prawda zamienia się w małe kółko wzajemnej adoracji - ale czy nie fajnie mieć wszystko pod ręką? [Tutaj więcej informacji]({{site.baseurl}}/wpisy/klasa_id_tag/).
 
 Dobrze, co z tą wagą? To dość prosta sprawa: są metody stylizowania na bardzo szeroką skalę. Są i takie, które trafią do jednego elementu na milion. Jak je wyłapać?
 
